@@ -14,21 +14,14 @@ import UIKit
 
 protocol NoticeBusinessLogic
 {
-    func fetchData(request: Notice.Data.Request)
+    func fetchData()
     func handlePrimaryAction()
 }
 
-protocol NoticeDataStore
-{
-    //var name: String { get set }
-}
-
-class NoticeInteractor: NoticeBusinessLogic, NoticeDataStore
-{
+class NoticeInteractor: NoticeBusinessLogic {
     var presenter: NoticePresentationLogic?
     
-    func fetchData(request: Notice.Data.Request)
-    {
+    func fetchData() {
         API.Notice.getData { [weak self] output, errorMessage in
             guard let output = output else {
                 GeneralAlerter.displayErrorAlert(message: errorMessage)
@@ -45,10 +38,20 @@ class NoticeInteractor: NoticeBusinessLogic, NoticeDataStore
                 GeneralAlerter.displayErrorAlert(message: errorMessage)
                 return
             }
+            
+            let worker = NoticeWorker(output: output)
+            
+            guard let merchantRecognized = worker.getReason(id: .merchant_recognized),
+                let cardInPossession = worker.getReason(id: .card_in_possession) else {
+                    GeneralAlerter.displayErrorAlert(message: errorMessage)
+                    return
+            }
+            
             let viewModel = Chargeback.Data.ViewModel(title: output.title,
                                                       hint: output.commentHint,
                                                       autoblock: output.autoblock,
-                                                      reasonDetails: output.reasonDetails)
+                                                      merchantRecognizedReason: merchantRecognized,
+                                                      cardInPossessionReason: cardInPossession)
             self?.presenter?.proceedToChargebackScene(viewModel: viewModel)
         }
     }

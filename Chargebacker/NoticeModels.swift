@@ -12,21 +12,15 @@
 
 import UIKit
 
-enum Notice
-{
-    // MARK: Use cases
+enum Notice {
     
-    enum Data
-    {
-        struct Request
-        {
-        }
-        struct Response
-        {
+    enum Data {
+        
+        struct Response {
             let output: NoticeOutput
         }
-        struct ViewModel
-        {
+        
+        struct ViewModel {
             let title: String
             let description: String
             let primaryAction: NoticeOutput.Action

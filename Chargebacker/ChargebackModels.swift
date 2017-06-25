@@ -12,19 +12,16 @@
 
 import UIKit
 
-enum Chargeback
-{
-    // MARK: Use cases
-    
+enum Chargeback {
+
     public enum ReasonId: String {
         case merchant_recognized
         case card_in_possession
     }
     
-    enum Data
-    {
-        struct Request
-        {
+    enum Data {
+        
+        struct Request {
             let comment: String
             var reasonDetails: [ReasonDetail]
             var input: ChargebackInput {
@@ -43,15 +40,13 @@ enum Chargeback
                                                   response: response))
             }
         }
-        struct Response
-        {
-        }
-        struct ViewModel
-        {
+        
+        struct ViewModel {
             let title: String
             let hint: String
             let autoblock: Bool
-            let reasonDetails: [ReasonDetail]
+            let merchantRecognizedReason: ReasonDetail
+            let cardInPossessionReason: ReasonDetail
         }
     }
 }

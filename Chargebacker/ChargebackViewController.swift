@@ -25,7 +25,6 @@ fileprivate let strings = R.string.chargeback.self
 class ChargebackViewController: UIViewController, ChargebackDisplayLogic
 {
     var interactor: ChargebackBusinessLogic?
-    var router: (NSObjectProtocol & ChargebackRoutingLogic & ChargebackDataPassing)?
     
     // MARK: IBOutlets
     
@@ -59,37 +58,20 @@ class ChargebackViewController: UIViewController, ChargebackDisplayLogic
         setup()
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        lblBlockCard.textColor = ThemeHandler.redColor()
+    }
+    
     // MARK: Setup
     
     private func setup() {
         let viewController = self
         let interactor = ChargebackInteractor()
         let presenter = ChargebackPresenter()
-        let router = ChargebackRouter()
         viewController.interactor = interactor
-        viewController.router = router
         interactor.presenter = presenter
         presenter.viewController = viewController
-        router.viewController = viewController
-        router.dataStore = interactor
-    }
-    
-    // MARK: Routing
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let scene = segue.identifier {
-            let selector = NSSelectorFromString("routeTo\(scene)WithSegue:")
-            if let router = router, router.responds(to: selector) {
-                router.perform(selector, with: segue)
-            }
-        }
-    }
-    
-    // MARK: View lifecycle
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        lblBlockCard.textColor = ThemeHandler.redColor()
     }
     
     // MARK: Private API
@@ -137,9 +119,8 @@ class ChargebackViewController: UIViewController, ChargebackDisplayLogic
         if viewModel.autoblock {
             interactor?.setCard(blocked: true, showSpinner: false)
         }
-        guard viewModel.reasonDetails.count > 1 else { return }
-        lblMerchantRecognized.text = viewModel.reasonDetails[0].title
-        lblCardInPossession.text = viewModel.reasonDetails[1].title
+        lblMerchantRecognized.text = viewModel.merchantRecognizedReason.title
+        lblCardInPossession.text = viewModel.cardInPossessionReason.title
     }
     
     func cardStateUpdated(blocked: Bool) {

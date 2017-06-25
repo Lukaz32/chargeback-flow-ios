@@ -21,7 +21,6 @@ fileprivate let segues = R.segue.noticeViewController.self
 
 class NoticeViewController: UIViewController, NoticeDisplayLogic {
     var interactor: NoticeBusinessLogic?
-    var router: (NSObjectProtocol & NoticeRoutingLogic & NoticeDataPassing)?
     
     // MARK: IBOutlets
     
@@ -48,13 +47,9 @@ class NoticeViewController: UIViewController, NoticeDisplayLogic {
         let viewController = self
         let interactor = NoticeInteractor()
         let presenter = NoticePresenter()
-        let router = NoticeRouter()
         viewController.interactor = interactor
-        viewController.router = router
         interactor.presenter = presenter
         presenter.viewController = viewController
-        router.viewController = viewController
-        router.dataStore = interactor
     }
     
     // MARK: Routing
@@ -66,12 +61,6 @@ class NoticeViewController: UIViewController, NoticeDisplayLogic {
             chargebackViewController.loadView()
             chargebackViewController.displayData(viewModel: viewModel)
         }
-//        if let scene = segue.identifier {
-//            let selector = NSSelectorFromString("routeTo\(scene)WithSegue:")
-//            if let router = router, router.responds(to: selector) {
-//                router.perform(selector, with: segue)
-//            }
-//        }
     }
     
     // MARK: View lifecycle
@@ -84,8 +73,7 @@ class NoticeViewController: UIViewController, NoticeDisplayLogic {
     // MARK: Private API
     
     private func loadNoticeData() {
-        let request = Notice.Data.Request()
-        interactor?.fetchData(request: request)
+        interactor?.fetchData()
     }
     
     // MARK: Display Logic

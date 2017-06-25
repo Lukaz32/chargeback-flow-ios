@@ -21,12 +21,8 @@
 		A023FFE21EFEF022008F3354 /* ChargebackModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD91EFEF022008F3354 /* ChargebackModels.swift */; };
 		A023FFE41EFEF022008F3354 /* ChargebackPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDA1EFEF022008F3354 /* ChargebackPresenter.swift */; };
 		A023FFE51EFEF022008F3354 /* ChargebackPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDA1EFEF022008F3354 /* ChargebackPresenter.swift */; };
-		A023FFE71EFEF023008F3354 /* ChargebackRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDB1EFEF022008F3354 /* ChargebackRouter.swift */; };
-		A023FFE81EFEF023008F3354 /* ChargebackRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDB1EFEF022008F3354 /* ChargebackRouter.swift */; };
 		A023FFEA1EFEF023008F3354 /* ChargebackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDC1EFEF022008F3354 /* ChargebackViewController.swift */; };
 		A023FFEB1EFEF023008F3354 /* ChargebackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDC1EFEF022008F3354 /* ChargebackViewController.swift */; };
-		A023FFED1EFEF023008F3354 /* ChargebackWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDD1EFEF022008F3354 /* ChargebackWorker.swift */; };
-		A023FFEE1EFEF023008F3354 /* ChargebackWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDD1EFEF022008F3354 /* ChargebackWorker.swift */; };
 		A023FFF11EFF0133008F3354 /* Notice.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF01EFF0133008F3354 /* Notice.strings */; };
 		A023FFF21EFF0133008F3354 /* Notice.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF01EFF0133008F3354 /* Notice.strings */; };
 		A023FFF51EFF013D008F3354 /* Chargeback.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF41EFF013D008F3354 /* Chargeback.strings */; };
@@ -83,6 +79,8 @@
 		A0A729811F000DDA000156C1 /* ChargebackInput.json in Resources */ = {isa = PBXBuildFile; fileRef = A0A729801F000DDA000156C1 /* ChargebackInput.json */; };
 		A0A729831F00165C000156C1 /* ChargebackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729821F00165C000156C1 /* ChargebackTests.swift */; };
 		A0A729851F00178A000156C1 /* ChargebackOutput.json in Resources */ = {isa = PBXBuildFile; fileRef = A0A729841F00178A000156C1 /* ChargebackOutput.json */; };
+		A0A729871F00649F000156C1 /* NoticeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729861F00649F000156C1 /* NoticeWorker.swift */; };
+		A0A729881F00649F000156C1 /* NoticeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729861F00649F000156C1 /* NoticeWorker.swift */; };
 		A0EBA7B81EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
 		A0EBA7B91EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
 		A0EBA7E01EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */; };
@@ -91,12 +89,8 @@
 		A0EBA7E41EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */; };
 		A0EBA7E61EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DC1EFEC2EF000F7BA6 /* NoticePresenter.swift */; };
 		A0EBA7E71EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DC1EFEC2EF000F7BA6 /* NoticePresenter.swift */; };
-		A0EBA7E91EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DD1EFEC2EF000F7BA6 /* NoticeRouter.swift */; };
-		A0EBA7EA1EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DD1EFEC2EF000F7BA6 /* NoticeRouter.swift */; };
 		A0EBA7EC1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DE1EFEC2EF000F7BA6 /* NoticeViewController.swift */; };
 		A0EBA7ED1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DE1EFEC2EF000F7BA6 /* NoticeViewController.swift */; };
-		A0EBA7EF1EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DF1EFEC2EF000F7BA6 /* NoticeWorker.swift */; };
-		A0EBA7F01EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DF1EFEC2EF000F7BA6 /* NoticeWorker.swift */; };
 		A3706732F6551998A9B886A7 /* Pods_ChargebackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E9C0EDF41183C997602A11 /* Pods_ChargebackerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -129,9 +123,7 @@
 		A023FFD81EFEF022008F3354 /* ChargebackInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackInteractor.swift; sourceTree = "<group>"; };
 		A023FFD91EFEF022008F3354 /* ChargebackModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackModels.swift; sourceTree = "<group>"; };
 		A023FFDA1EFEF022008F3354 /* ChargebackPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackPresenter.swift; sourceTree = "<group>"; };
-		A023FFDB1EFEF022008F3354 /* ChargebackRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackRouter.swift; sourceTree = "<group>"; };
 		A023FFDC1EFEF022008F3354 /* ChargebackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackViewController.swift; sourceTree = "<group>"; };
-		A023FFDD1EFEF022008F3354 /* ChargebackWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackWorker.swift; sourceTree = "<group>"; };
 		A023FFF01EFF0133008F3354 /* Notice.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Notice.strings; sourceTree = "<group>"; };
 		A023FFF41EFF013D008F3354 /* Chargeback.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Chargeback.strings; sourceTree = "<group>"; };
 		A037742D1EFEB4540018DC50 /* BaseOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseOutput.swift; sourceTree = "<group>"; };
@@ -163,13 +155,12 @@
 		A0A729801F000DDA000156C1 /* ChargebackInput.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChargebackInput.json; sourceTree = "<group>"; };
 		A0A729821F00165C000156C1 /* ChargebackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackTests.swift; sourceTree = "<group>"; };
 		A0A729841F00178A000156C1 /* ChargebackOutput.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChargebackOutput.json; sourceTree = "<group>"; };
+		A0A729861F00649F000156C1 /* NoticeWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeWorker.swift; sourceTree = "<group>"; };
 		A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeInteractor.swift; sourceTree = "<group>"; };
 		A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeModels.swift; sourceTree = "<group>"; };
 		A0EBA7DC1EFEC2EF000F7BA6 /* NoticePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticePresenter.swift; sourceTree = "<group>"; };
-		A0EBA7DD1EFEC2EF000F7BA6 /* NoticeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeRouter.swift; sourceTree = "<group>"; };
 		A0EBA7DE1EFEC2EF000F7BA6 /* NoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
-		A0EBA7DF1EFEC2EF000F7BA6 /* NoticeWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeWorker.swift; sourceTree = "<group>"; };
 		B6EE8FAC5F7C54845280919F /* Pods-Chargebacker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chargebacker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chargebacker/Pods-Chargebacker.release.xcconfig"; sourceTree = "<group>"; };
 		D2515239952FC951F0D1DE3E /* Pods-ChargebackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChargebackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChargebackerUITests/Pods-ChargebackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC9F63003AFFAFA6D584613E /* Pods-Chargebacker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chargebacker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chargebacker/Pods-Chargebacker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -303,12 +294,11 @@
 		A023FFD61EFEEFE5008F3354 /* Notice */ = {
 			isa = PBXGroup;
 			children = (
+				A0A729861F00649F000156C1 /* NoticeWorker.swift */,
 				A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */,
 				A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */,
 				A0EBA7DC1EFEC2EF000F7BA6 /* NoticePresenter.swift */,
-				A0EBA7DD1EFEC2EF000F7BA6 /* NoticeRouter.swift */,
 				A0EBA7DE1EFEC2EF000F7BA6 /* NoticeViewController.swift */,
-				A0EBA7DF1EFEC2EF000F7BA6 /* NoticeWorker.swift */,
 				A023FFF01EFF0133008F3354 /* Notice.strings */,
 			);
 			name = Notice;
@@ -320,9 +310,7 @@
 				A023FFD81EFEF022008F3354 /* ChargebackInteractor.swift */,
 				A023FFD91EFEF022008F3354 /* ChargebackModels.swift */,
 				A023FFDA1EFEF022008F3354 /* ChargebackPresenter.swift */,
-				A023FFDB1EFEF022008F3354 /* ChargebackRouter.swift */,
 				A023FFDC1EFEF022008F3354 /* ChargebackViewController.swift */,
-				A023FFDD1EFEF022008F3354 /* ChargebackWorker.swift */,
 				A023FFF41EFF013D008F3354 /* Chargeback.strings */,
 			);
 			name = Chargeback;
@@ -645,12 +633,12 @@
 				A0EBA7B81EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */,
 				A083D5541EFED206004967A6 /* DataExtensions.swift in Sources */,
 				A001B1241EFB2E7B00167FE9 /* API.swift in Sources */,
-				A023FFE71EFEF023008F3354 /* ChargebackRouter.swift in Sources */,
 				A0784F041EFF36E500AE4FB8 /* ColorExtensions.swift in Sources */,
 				A082A6771EFEB3500043E644 /* Typealias.swift in Sources */,
 				A0784F001EFF363200AE4FB8 /* ThemeHandler.swift in Sources */,
 				A0EBA7E31EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */,
 				A023FFEA1EFEF023008F3354 /* ChargebackViewController.swift in Sources */,
+				A0A729871F00649F000156C1 /* NoticeWorker.swift in Sources */,
 				A083D5461EFEC7F3004967A6 /* Paths.swift in Sources */,
 				A0784ED61EFF0AE200AE4FB8 /* ReasonDetail.swift in Sources */,
 				A037742E1EFEB4540018DC50 /* BaseOutput.swift in Sources */,
@@ -663,8 +651,6 @@
 				A0784F081EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */,
 				A0784F0C1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */,
 				A0784EDA1EFF292200AE4FB8 /* Notice.swift in Sources */,
-				A023FFED1EFEF023008F3354 /* ChargebackWorker.swift in Sources */,
-				A0EBA7E91EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */,
 				A0EBA7EC1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */,
 				A023FFE41EFEF022008F3354 /* ChargebackPresenter.swift in Sources */,
 				A083D54B1EFECA22004967A6 /* R.generated.swift in Sources */,
@@ -675,7 +661,6 @@
 				A0784F101EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */,
 				A0784EF41EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */,
 				A083D53A1EFEC50B004967A6 /* NoticeOutput.swift in Sources */,
-				A0EBA7EF1EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,7 +668,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0EBA7EA1EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */,
 				A023FFDF1EFEF022008F3354 /* ChargebackInteractor.swift in Sources */,
 				A0A7297D1F00077B000156C1 /* APITests.swift in Sources */,
 				A0EBA7E71EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */,
@@ -692,7 +676,6 @@
 				A0784F051EFF36E500AE4FB8 /* ColorExtensions.swift in Sources */,
 				A083D5551EFED206004967A6 /* DataExtensions.swift in Sources */,
 				A0784F011EFF363200AE4FB8 /* ThemeHandler.swift in Sources */,
-				A023FFEE1EFEF023008F3354 /* ChargebackWorker.swift in Sources */,
 				A0A729771EFF60ED000156C1 /* NoticeTests.swift in Sources */,
 				A023FFD41EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */,
 				A083D5501EFECA77004967A6 /* Typealias.swift in Sources */,
@@ -707,20 +690,19 @@
 				A0784F091EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */,
 				A0784F0D1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */,
 				A083D5471EFEC7F3004967A6 /* Paths.swift in Sources */,
+				A0A729881F00649F000156C1 /* NoticeWorker.swift in Sources */,
 				A023FFEB1EFEF023008F3354 /* ChargebackViewController.swift in Sources */,
 				A023FFE51EFEF022008F3354 /* ChargebackPresenter.swift in Sources */,
 				A037742F1EFEB4540018DC50 /* BaseOutput.swift in Sources */,
 				A0784EDB1EFF292200AE4FB8 /* Notice.swift in Sources */,
 				A0EBA7E11EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */,
 				A0784EDF1EFF2A3900AE4FB8 /* Card.swift in Sources */,
-				A0EBA7F01EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */,
 				A0EBA7ED1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */,
 				A0A729831F00165C000156C1 /* ChargebackTests.swift in Sources */,
 				A0A7297F1F000D4D000156C1 /* Mocker.swift in Sources */,
 				A0784F111EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */,
 				A0784EF51EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */,
 				A0784ECE1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */,
-				A023FFE81EFEF023008F3354 /* ChargebackRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

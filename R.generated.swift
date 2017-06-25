@@ -31,12 +31,21 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 2 images.
+  /// This `R.image` struct is generated, and contains static references to 4 images.
   struct image {
+    /// Image `card-line`.
+    static let cardLine = Rswift.ImageResource(bundle: R.hostingBundle, name: "card-line")
     /// Image `ic_chargeback_lock`.
     static let ic_chargeback_lock = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_chargeback_lock")
     /// Image `ic_chargeback_unlock`.
     static let ic_chargeback_unlock = Rswift.ImageResource(bundle: R.hostingBundle, name: "ic_chargeback_unlock")
+    /// Image `nubank-logo`.
+    static let nubankLogo = Rswift.ImageResource(bundle: R.hostingBundle, name: "nubank-logo")
+    
+    /// `UIImage(named: "card-line", bundle: ..., traitCollection: ...)`
+    static func cardLine(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.cardLine, compatibleWith: traitCollection)
+    }
     
     /// `UIImage(named: "ic_chargeback_lock", bundle: ..., traitCollection: ...)`
     static func ic_chargeback_lock(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
@@ -46,6 +55,11 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "ic_chargeback_unlock", bundle: ..., traitCollection: ...)`
     static func ic_chargeback_unlock(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.ic_chargeback_unlock, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "nubank-logo", bundle: ..., traitCollection: ...)`
+    static func nubankLogo(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.nubankLogo, compatibleWith: traitCollection)
     }
     
     fileprivate init() {}
@@ -208,13 +222,19 @@ struct _R: Rswift.Validatable {
   struct storyboard: Rswift.Validatable {
     static func validate() throws {
       try main.validate()
+      try launchScreen.validate()
     }
     
-    struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType {
+    struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
       typealias InitialController = UIKit.UIViewController
       
       let bundle = R.hostingBundle
       let name = "LaunchScreen"
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "card-line") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'card-line' is used in storyboard 'LaunchScreen', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "nubank-logo") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'nubank-logo' is used in storyboard 'LaunchScreen', but couldn't be loaded.") }
+      }
       
       fileprivate init() {}
     }

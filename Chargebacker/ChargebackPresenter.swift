@@ -12,18 +12,16 @@
 
 import UIKit
 
-protocol ChargebackPresentationLogic
-{
+protocol ChargebackPresentationLogic {
     func handleCard(blocked: Bool)
     func handleContest(succeeded: Bool, errorMessage: String?)
 }
 
-class ChargebackPresenter: ChargebackPresentationLogic
-{
+class ChargebackPresenter: ChargebackPresentationLogic {
+    
     weak var viewController: ChargebackDisplayLogic?
     
-    func handleCard(blocked: Bool)
-    {
+    func handleCard(blocked: Bool) {
         viewController?.cardStateUpdated(blocked: blocked)
     }
     

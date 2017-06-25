@@ -12,9 +12,20 @@
 
 import UIKit
 
-class NoticeWorker
-{
-  func doSomeWork()
-  {
-  }
+class NoticeWorker {
+
+    private let output: ChargebackOutput
+    
+    init(output: ChargebackOutput) {
+        self.output = output
+    }
+    
+    func getReason(id: Chargeback.ReasonId) -> ReasonDetail? {
+        for detail in output.reasonDetails {
+            if detail.id == id.rawValue {
+                return detail
+            }
+        }
+        return nil
+    }
 }

@@ -12,25 +12,16 @@
 
 import UIKit
 
-protocol ChargebackBusinessLogic
-{
+protocol ChargebackBusinessLogic {
     func setCard(blocked: Bool, showSpinner: Bool)
     func tappedContest(request: Chargeback.Data.Request)
 }
 
-protocol ChargebackDataStore
-{
-}
-
-class ChargebackInteractor: ChargebackBusinessLogic, ChargebackDataStore
+class ChargebackInteractor: ChargebackBusinessLogic
 {
     var presenter: ChargebackPresentationLogic?
-    var worker: ChargebackWorker?
     
-    // MARK: Do something
-    
-    func setCard(blocked: Bool, showSpinner: Bool)
-    {
+    func setCard(blocked: Bool, showSpinner: Bool)  {
         API.Card.setCard(blocked: blocked, showSpinner: showSpinner) { [weak self] succeeded, errorMessage in
             guard succeeded else {
                 GeneralAlerter.displayErrorAlert(message: errorMessage)

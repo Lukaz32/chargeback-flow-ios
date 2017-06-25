@@ -12,18 +12,15 @@
 
 import UIKit
 
-protocol NoticePresentationLogic
-{
+protocol NoticePresentationLogic {
     func presentNoticeData(response: Notice.Data.Response)
     func proceedToChargebackScene(viewModel: Chargeback.Data.ViewModel)
 }
 
-class NoticePresenter: NoticePresentationLogic
-{
+class NoticePresenter: NoticePresentationLogic {
     weak var viewController: NoticeDisplayLogic?
     
-    func presentNoticeData(response: Notice.Data.Response)
-    {
+    func presentNoticeData(response: Notice.Data.Response) {
         let output = response.output
         let viewModel = Notice.Data.ViewModel(title: output.title,
                                               description: output.description,
