@@ -1,0 +1,9 @@
+/* 
+  ModalAlertView.strings
+  Chargebacker
+
+  Created by Lucas Pereira on 24/06/17.
+  Copyright © 2017 Lucas Pereira. All rights reserved.
+*/
+"title" = "Contestação de compra recebida";
+"descriptionText" = "Fique de olho no seu email! Nos próximos 3 dias você deverá receber um primeiro retorno sobre sua contestação.";

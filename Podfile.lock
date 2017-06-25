@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.5.0)
+  - ALLoadingView (1.1.3)
+  - Nimble (7.0.1)
+  - Quick (1.1.0)
+  - R.swift (3.3.0):
+    - R.swift.Library (~> 3.0.2)
+  - R.swift.Library (3.0.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - ALLoadingView
+  - Nimble (~> 7.0)
+  - Quick (~> 1.1)
+  - R.swift (~> 3.3)
+  - SwiftyJSON (~> 3.1)
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  ALLoadingView: 64344433e904ed512c4dc5776524783e123eb543
+  Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  R.swift: bde9704d50ff36820f49e266bc88ef545e1e9b36
+  R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 099a584c3f225aa2766a3284b1ca1b987eef0b32
+
+COCOAPODS: 1.2.1

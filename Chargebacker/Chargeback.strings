@@ -1,0 +1,10 @@
+/* 
+  Chargeback.strings
+  Chargebacker
+
+  Created by Lucas Pereira on 24/06/17.
+  Copyright © 2017 Lucas Pereira. All rights reserved.
+*/
+
+"cardBlockedMessage" = "Bloqueamos preventivamente o seu cartão";
+"cardUnblockedMessage" = "Cartão desbloqueado, recomendamos mantê-lo bloqueado.";

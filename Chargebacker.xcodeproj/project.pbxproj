@@ -1,0 +1,1146 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A8522F8F705C8DF5C4CC5D /* Pods_ChargebackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2346303C8DD92CD877B53CCD /* Pods_ChargebackerUITests.framework */; };
+		786835793E2BA6B74B19902E /* Pods_Chargebacker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D80AF52B7129BBF4140B65 /* Pods_Chargebacker.framework */; };
+		A001B0F31EFB29E500167FE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B0F21EFB29E500167FE9 /* AppDelegate.swift */; };
+		A001B0F81EFB29E500167FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001B0F61EFB29E500167FE9 /* Main.storyboard */; };
+		A001B0FA1EFB29E500167FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A001B0F91EFB29E500167FE9 /* Assets.xcassets */; };
+		A001B0FD1EFB29E500167FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001B0FB1EFB29E500167FE9 /* LaunchScreen.storyboard */; };
+		A001B1081EFB29E500167FE9 /* ChargebackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B1071EFB29E500167FE9 /* ChargebackerTests.swift */; };
+		A001B1131EFB29E500167FE9 /* ChargebackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B1121EFB29E500167FE9 /* ChargebackerUITests.swift */; };
+		A001B1241EFB2E7B00167FE9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B1231EFB2E7B00167FE9 /* API.swift */; };
+		A023FFD31EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD21EFEE9FD008F3354 /* ChargebackOutput.swift */; };
+		A023FFD41EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD21EFEE9FD008F3354 /* ChargebackOutput.swift */; };
+		A023FFD51EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD21EFEE9FD008F3354 /* ChargebackOutput.swift */; };
+		A023FFDE1EFEF022008F3354 /* ChargebackInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD81EFEF022008F3354 /* ChargebackInteractor.swift */; };
+		A023FFDF1EFEF022008F3354 /* ChargebackInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD81EFEF022008F3354 /* ChargebackInteractor.swift */; };
+		A023FFE01EFEF022008F3354 /* ChargebackInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD81EFEF022008F3354 /* ChargebackInteractor.swift */; };
+		A023FFE11EFEF022008F3354 /* ChargebackModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD91EFEF022008F3354 /* ChargebackModels.swift */; };
+		A023FFE21EFEF022008F3354 /* ChargebackModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD91EFEF022008F3354 /* ChargebackModels.swift */; };
+		A023FFE31EFEF022008F3354 /* ChargebackModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD91EFEF022008F3354 /* ChargebackModels.swift */; };
+		A023FFE41EFEF022008F3354 /* ChargebackPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDA1EFEF022008F3354 /* ChargebackPresenter.swift */; };
+		A023FFE51EFEF022008F3354 /* ChargebackPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDA1EFEF022008F3354 /* ChargebackPresenter.swift */; };
+		A023FFE61EFEF022008F3354 /* ChargebackPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDA1EFEF022008F3354 /* ChargebackPresenter.swift */; };
+		A023FFE71EFEF023008F3354 /* ChargebackRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDB1EFEF022008F3354 /* ChargebackRouter.swift */; };
+		A023FFE81EFEF023008F3354 /* ChargebackRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDB1EFEF022008F3354 /* ChargebackRouter.swift */; };
+		A023FFE91EFEF023008F3354 /* ChargebackRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDB1EFEF022008F3354 /* ChargebackRouter.swift */; };
+		A023FFEA1EFEF023008F3354 /* ChargebackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDC1EFEF022008F3354 /* ChargebackViewController.swift */; };
+		A023FFEB1EFEF023008F3354 /* ChargebackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDC1EFEF022008F3354 /* ChargebackViewController.swift */; };
+		A023FFEC1EFEF023008F3354 /* ChargebackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDC1EFEF022008F3354 /* ChargebackViewController.swift */; };
+		A023FFED1EFEF023008F3354 /* ChargebackWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDD1EFEF022008F3354 /* ChargebackWorker.swift */; };
+		A023FFEE1EFEF023008F3354 /* ChargebackWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDD1EFEF022008F3354 /* ChargebackWorker.swift */; };
+		A023FFEF1EFEF023008F3354 /* ChargebackWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDD1EFEF022008F3354 /* ChargebackWorker.swift */; };
+		A023FFF11EFF0133008F3354 /* Notice.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF01EFF0133008F3354 /* Notice.strings */; };
+		A023FFF21EFF0133008F3354 /* Notice.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF01EFF0133008F3354 /* Notice.strings */; };
+		A023FFF31EFF0133008F3354 /* Notice.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF01EFF0133008F3354 /* Notice.strings */; };
+		A023FFF51EFF013D008F3354 /* Chargeback.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF41EFF013D008F3354 /* Chargeback.strings */; };
+		A023FFF61EFF013D008F3354 /* Chargeback.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF41EFF013D008F3354 /* Chargeback.strings */; };
+		A023FFF71EFF013D008F3354 /* Chargeback.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF41EFF013D008F3354 /* Chargeback.strings */; };
+		A037742E1EFEB4540018DC50 /* BaseOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037742D1EFEB4540018DC50 /* BaseOutput.swift */; };
+		A037742F1EFEB4540018DC50 /* BaseOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037742D1EFEB4540018DC50 /* BaseOutput.swift */; };
+		A03774301EFEB4540018DC50 /* BaseOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037742D1EFEB4540018DC50 /* BaseOutput.swift */; };
+		A0784ECD1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ECC1EFF0A0A00AE4FB8 /* Chargeback.swift */; };
+		A0784ECE1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ECC1EFF0A0A00AE4FB8 /* Chargeback.swift */; };
+		A0784ECF1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ECC1EFF0A0A00AE4FB8 /* Chargeback.swift */; };
+		A0784ED11EFF0A7000AE4FB8 /* ChargebackInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED01EFF0A7000AE4FB8 /* ChargebackInput.swift */; };
+		A0784ED21EFF0A7000AE4FB8 /* ChargebackInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED01EFF0A7000AE4FB8 /* ChargebackInput.swift */; };
+		A0784ED31EFF0A7000AE4FB8 /* ChargebackInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED01EFF0A7000AE4FB8 /* ChargebackInput.swift */; };
+		A0784ED61EFF0AE200AE4FB8 /* ReasonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED51EFF0AE200AE4FB8 /* ReasonDetail.swift */; };
+		A0784ED71EFF0AE200AE4FB8 /* ReasonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED51EFF0AE200AE4FB8 /* ReasonDetail.swift */; };
+		A0784ED81EFF0AE200AE4FB8 /* ReasonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED51EFF0AE200AE4FB8 /* ReasonDetail.swift */; };
+		A0784EDA1EFF292200AE4FB8 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED91EFF292200AE4FB8 /* Notice.swift */; };
+		A0784EDB1EFF292200AE4FB8 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED91EFF292200AE4FB8 /* Notice.swift */; };
+		A0784EDC1EFF292200AE4FB8 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED91EFF292200AE4FB8 /* Notice.swift */; };
+		A0784EDE1EFF2A3900AE4FB8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EDD1EFF2A3900AE4FB8 /* Card.swift */; };
+		A0784EDF1EFF2A3900AE4FB8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EDD1EFF2A3900AE4FB8 /* Card.swift */; };
+		A0784EE01EFF2A3900AE4FB8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EDD1EFF2A3900AE4FB8 /* Card.swift */; };
+		A0784EE21EFF2A9700AE4FB8 /* Api.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0784EE11EFF2A9700AE4FB8 /* Api.strings */; };
+		A0784EE31EFF2A9700AE4FB8 /* Api.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0784EE11EFF2A9700AE4FB8 /* Api.strings */; };
+		A0784EE41EFF2A9700AE4FB8 /* Api.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0784EE11EFF2A9700AE4FB8 /* Api.strings */; };
+		A0784EF41EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EF21EFF2E6000AE4FB8 /* ModalAlertViewController.swift */; };
+		A0784EF51EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EF21EFF2E6000AE4FB8 /* ModalAlertViewController.swift */; };
+		A0784EF61EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EF21EFF2E6000AE4FB8 /* ModalAlertViewController.swift */; };
+		A0784EF71EFF2E6000AE4FB8 /* ModalAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0784EF31EFF2E6000AE4FB8 /* ModalAlertViewController.xib */; };
+		A0784EF81EFF2E6000AE4FB8 /* ModalAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0784EF31EFF2E6000AE4FB8 /* ModalAlertViewController.xib */; };
+		A0784EF91EFF2E6000AE4FB8 /* ModalAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0784EF31EFF2E6000AE4FB8 /* ModalAlertViewController.xib */; };
+		A0784EFB1EFF2F8200AE4FB8 /* ModalAlert.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0784EFA1EFF2F8200AE4FB8 /* ModalAlert.strings */; };
+		A0784EFC1EFF2F8200AE4FB8 /* ModalAlert.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0784EFA1EFF2F8200AE4FB8 /* ModalAlert.strings */; };
+		A0784EFD1EFF2F8200AE4FB8 /* ModalAlert.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0784EFA1EFF2F8200AE4FB8 /* ModalAlert.strings */; };
+		A0784F001EFF363200AE4FB8 /* ThemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EFF1EFF363200AE4FB8 /* ThemeHandler.swift */; };
+		A0784F011EFF363200AE4FB8 /* ThemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EFF1EFF363200AE4FB8 /* ThemeHandler.swift */; };
+		A0784F021EFF363200AE4FB8 /* ThemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EFF1EFF363200AE4FB8 /* ThemeHandler.swift */; };
+		A0784F041EFF36E500AE4FB8 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F031EFF36E500AE4FB8 /* ColorExtensions.swift */; };
+		A0784F051EFF36E500AE4FB8 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F031EFF36E500AE4FB8 /* ColorExtensions.swift */; };
+		A0784F061EFF36E500AE4FB8 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F031EFF36E500AE4FB8 /* ColorExtensions.swift */; };
+		A0784F081EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F071EFF3AA100AE4FB8 /* DefaultLabel.swift */; };
+		A0784F091EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F071EFF3AA100AE4FB8 /* DefaultLabel.swift */; };
+		A0784F0A1EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F071EFF3AA100AE4FB8 /* DefaultLabel.swift */; };
+		A0784F0C1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0B1EFF43D000AE4FB8 /* DefaultButton.swift */; };
+		A0784F0D1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0B1EFF43D000AE4FB8 /* DefaultButton.swift */; };
+		A0784F0E1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0B1EFF43D000AE4FB8 /* DefaultButton.swift */; };
+		A0784F101EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */; };
+		A0784F111EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */; };
+		A0784F121EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */; };
+		A082A6771EFEB3500043E644 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082A6761EFEB3500043E644 /* Typealias.swift */; };
+		A083D53A1EFEC50B004967A6 /* NoticeOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5391EFEC50B004967A6 /* NoticeOutput.swift */; };
+		A083D53B1EFEC50B004967A6 /* NoticeOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5391EFEC50B004967A6 /* NoticeOutput.swift */; };
+		A083D53C1EFEC50B004967A6 /* NoticeOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5391EFEC50B004967A6 /* NoticeOutput.swift */; };
+		A083D5421EFEC7D1004967A6 /* URLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5411EFEC7D1004967A6 /* URLComposer.swift */; };
+		A083D5431EFEC7D1004967A6 /* URLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5411EFEC7D1004967A6 /* URLComposer.swift */; };
+		A083D5441EFEC7D1004967A6 /* URLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5411EFEC7D1004967A6 /* URLComposer.swift */; };
+		A083D5461EFEC7F3004967A6 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5451EFEC7F3004967A6 /* Paths.swift */; };
+		A083D5471EFEC7F3004967A6 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5451EFEC7F3004967A6 /* Paths.swift */; };
+		A083D5481EFEC7F3004967A6 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5451EFEC7F3004967A6 /* Paths.swift */; };
+		A083D54B1EFECA22004967A6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D54A1EFECA22004967A6 /* R.generated.swift */; };
+		A083D54C1EFECA22004967A6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D54A1EFECA22004967A6 /* R.generated.swift */; };
+		A083D54D1EFECA22004967A6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D54A1EFECA22004967A6 /* R.generated.swift */; };
+		A083D54E1EFECA50004967A6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B1231EFB2E7B00167FE9 /* API.swift */; };
+		A083D54F1EFECA51004967A6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B1231EFB2E7B00167FE9 /* API.swift */; };
+		A083D5501EFECA77004967A6 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082A6761EFEB3500043E644 /* Typealias.swift */; };
+		A083D5511EFECA78004967A6 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082A6761EFEB3500043E644 /* Typealias.swift */; };
+		A083D5541EFED206004967A6 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5531EFED206004967A6 /* DataExtensions.swift */; };
+		A083D5551EFED206004967A6 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5531EFED206004967A6 /* DataExtensions.swift */; };
+		A083D5561EFED206004967A6 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5531EFED206004967A6 /* DataExtensions.swift */; };
+		A0EBA7B81EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
+		A0EBA7B91EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
+		A0EBA7BA1EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
+		A0EBA7E01EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */; };
+		A0EBA7E11EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */; };
+		A0EBA7E21EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */; };
+		A0EBA7E31EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */; };
+		A0EBA7E41EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */; };
+		A0EBA7E51EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */; };
+		A0EBA7E61EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DC1EFEC2EF000F7BA6 /* NoticePresenter.swift */; };
+		A0EBA7E71EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DC1EFEC2EF000F7BA6 /* NoticePresenter.swift */; };
+		A0EBA7E81EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DC1EFEC2EF000F7BA6 /* NoticePresenter.swift */; };
+		A0EBA7E91EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DD1EFEC2EF000F7BA6 /* NoticeRouter.swift */; };
+		A0EBA7EA1EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DD1EFEC2EF000F7BA6 /* NoticeRouter.swift */; };
+		A0EBA7EB1EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DD1EFEC2EF000F7BA6 /* NoticeRouter.swift */; };
+		A0EBA7EC1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DE1EFEC2EF000F7BA6 /* NoticeViewController.swift */; };
+		A0EBA7ED1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DE1EFEC2EF000F7BA6 /* NoticeViewController.swift */; };
+		A0EBA7EE1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DE1EFEC2EF000F7BA6 /* NoticeViewController.swift */; };
+		A0EBA7EF1EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DF1EFEC2EF000F7BA6 /* NoticeWorker.swift */; };
+		A0EBA7F01EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DF1EFEC2EF000F7BA6 /* NoticeWorker.swift */; };
+		A0EBA7F11EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DF1EFEC2EF000F7BA6 /* NoticeWorker.swift */; };
+		A3706732F6551998A9B886A7 /* Pods_ChargebackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E9C0EDF41183C997602A11 /* Pods_ChargebackerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A001B1041EFB29E500167FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A001B0E71EFB29E500167FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A001B0EE1EFB29E500167FE9;
+			remoteInfo = Chargebacker;
+		};
+		A001B10F1EFB29E500167FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A001B0E71EFB29E500167FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A001B0EE1EFB29E500167FE9;
+			remoteInfo = Chargebacker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2346303C8DD92CD877B53CCD /* Pods_ChargebackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChargebackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C526D7B41289631FEBF8427 /* Pods-ChargebackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChargebackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChargebackerUITests/Pods-ChargebackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63B55D110CB8A7D3483B41A4 /* Pods-ChargebackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChargebackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChargebackerTests/Pods-ChargebackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D0CA6B23E745F9F51EA36CC /* Pods-ChargebackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChargebackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChargebackerTests/Pods-ChargebackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		88E9C0EDF41183C997602A11 /* Pods_ChargebackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChargebackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001B0EF1EFB29E500167FE9 /* Chargebacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chargebacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001B0F21EFB29E500167FE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A001B0F71EFB29E500167FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A001B0F91EFB29E500167FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A001B0FC1EFB29E500167FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A001B0FE1EFB29E500167FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A001B1031EFB29E500167FE9 /* ChargebackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChargebackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001B1071EFB29E500167FE9 /* ChargebackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargebackerTests.swift; sourceTree = "<group>"; };
+		A001B1091EFB29E500167FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A001B10E1EFB29E500167FE9 /* ChargebackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChargebackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001B1121EFB29E500167FE9 /* ChargebackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargebackerUITests.swift; sourceTree = "<group>"; };
+		A001B1141EFB29E500167FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A001B1231EFB2E7B00167FE9 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		A023FFD21EFEE9FD008F3354 /* ChargebackOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackOutput.swift; sourceTree = "<group>"; };
+		A023FFD81EFEF022008F3354 /* ChargebackInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackInteractor.swift; sourceTree = "<group>"; };
+		A023FFD91EFEF022008F3354 /* ChargebackModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackModels.swift; sourceTree = "<group>"; };
+		A023FFDA1EFEF022008F3354 /* ChargebackPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackPresenter.swift; sourceTree = "<group>"; };
+		A023FFDB1EFEF022008F3354 /* ChargebackRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackRouter.swift; sourceTree = "<group>"; };
+		A023FFDC1EFEF022008F3354 /* ChargebackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackViewController.swift; sourceTree = "<group>"; };
+		A023FFDD1EFEF022008F3354 /* ChargebackWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackWorker.swift; sourceTree = "<group>"; };
+		A023FFF01EFF0133008F3354 /* Notice.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Notice.strings; sourceTree = "<group>"; };
+		A023FFF41EFF013D008F3354 /* Chargeback.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Chargeback.strings; sourceTree = "<group>"; };
+		A037742D1EFEB4540018DC50 /* BaseOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseOutput.swift; sourceTree = "<group>"; };
+		A0784ECC1EFF0A0A00AE4FB8 /* Chargeback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chargeback.swift; sourceTree = "<group>"; };
+		A0784ED01EFF0A7000AE4FB8 /* ChargebackInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackInput.swift; sourceTree = "<group>"; };
+		A0784ED51EFF0AE200AE4FB8 /* ReasonDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReasonDetail.swift; sourceTree = "<group>"; };
+		A0784ED91EFF292200AE4FB8 /* Notice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
+		A0784EDD1EFF2A3900AE4FB8 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A0784EE11EFF2A9700AE4FB8 /* Api.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Api.strings; sourceTree = "<group>"; };
+		A0784EF21EFF2E6000AE4FB8 /* ModalAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalAlertViewController.swift; sourceTree = "<group>"; };
+		A0784EF31EFF2E6000AE4FB8 /* ModalAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalAlertViewController.xib; sourceTree = "<group>"; };
+		A0784EFA1EFF2F8200AE4FB8 /* ModalAlert.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ModalAlert.strings; sourceTree = "<group>"; };
+		A0784EFF1EFF363200AE4FB8 /* ThemeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeHandler.swift; sourceTree = "<group>"; };
+		A0784F031EFF36E500AE4FB8 /* ColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		A0784F071EFF3AA100AE4FB8 /* DefaultLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLabel.swift; sourceTree = "<group>"; };
+		A0784F0B1EFF43D000AE4FB8 /* DefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
+		A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralAlerter.swift; sourceTree = "<group>"; };
+		A082A6761EFEB3500043E644 /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		A083D5391EFEC50B004967A6 /* NoticeOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeOutput.swift; sourceTree = "<group>"; };
+		A083D5411EFEC7D1004967A6 /* URLComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComposer.swift; sourceTree = "<group>"; };
+		A083D5451EFEC7F3004967A6 /* Paths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paths.swift; sourceTree = "<group>"; };
+		A083D54A1EFECA22004967A6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		A083D5531EFED206004967A6 /* DataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
+		A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeInteractor.swift; sourceTree = "<group>"; };
+		A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeModels.swift; sourceTree = "<group>"; };
+		A0EBA7DC1EFEC2EF000F7BA6 /* NoticePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticePresenter.swift; sourceTree = "<group>"; };
+		A0EBA7DD1EFEC2EF000F7BA6 /* NoticeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeRouter.swift; sourceTree = "<group>"; };
+		A0EBA7DE1EFEC2EF000F7BA6 /* NoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		A0EBA7DF1EFEC2EF000F7BA6 /* NoticeWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeWorker.swift; sourceTree = "<group>"; };
+		B6EE8FAC5F7C54845280919F /* Pods-Chargebacker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chargebacker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chargebacker/Pods-Chargebacker.release.xcconfig"; sourceTree = "<group>"; };
+		D2515239952FC951F0D1DE3E /* Pods-ChargebackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChargebackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChargebackerUITests/Pods-ChargebackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC9F63003AFFAFA6D584613E /* Pods-Chargebacker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chargebacker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chargebacker/Pods-Chargebacker.debug.xcconfig"; sourceTree = "<group>"; };
+		F5D80AF52B7129BBF4140B65 /* Pods_Chargebacker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chargebacker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A001B0EC1EFB29E500167FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786835793E2BA6B74B19902E /* Pods_Chargebacker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B1001EFB29E500167FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3706732F6551998A9B886A7 /* Pods_ChargebackerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B10B1EFB29E500167FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A8522F8F705C8DF5C4CC5D /* Pods_ChargebackerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E9635854DF5958434857ACB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5D80AF52B7129BBF4140B65 /* Pods_Chargebacker.framework */,
+				88E9C0EDF41183C997602A11 /* Pods_ChargebackerTests.framework */,
+				2346303C8DD92CD877B53CCD /* Pods_ChargebackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7974942251E7FDCE77817E91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC9F63003AFFAFA6D584613E /* Pods-Chargebacker.debug.xcconfig */,
+				B6EE8FAC5F7C54845280919F /* Pods-Chargebacker.release.xcconfig */,
+				63B55D110CB8A7D3483B41A4 /* Pods-ChargebackerTests.debug.xcconfig */,
+				6D0CA6B23E745F9F51EA36CC /* Pods-ChargebackerTests.release.xcconfig */,
+				D2515239952FC951F0D1DE3E /* Pods-ChargebackerUITests.debug.xcconfig */,
+				3C526D7B41289631FEBF8427 /* Pods-ChargebackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A001B0E61EFB29E500167FE9 = {
+			isa = PBXGroup;
+			children = (
+				A001B0F11EFB29E500167FE9 /* Chargebacker */,
+				A001B1061EFB29E500167FE9 /* ChargebackerTests */,
+				A001B1111EFB29E500167FE9 /* ChargebackerUITests */,
+				A001B0F01EFB29E500167FE9 /* Products */,
+				7974942251E7FDCE77817E91 /* Pods */,
+				0E9635854DF5958434857ACB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A001B0F01EFB29E500167FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A001B0EF1EFB29E500167FE9 /* Chargebacker.app */,
+				A001B1031EFB29E500167FE9 /* ChargebackerTests.xctest */,
+				A001B10E1EFB29E500167FE9 /* ChargebackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A001B0F11EFB29E500167FE9 /* Chargebacker */ = {
+			isa = PBXGroup;
+			children = (
+				A001B0F21EFB29E500167FE9 /* AppDelegate.swift */,
+				A001B0F61EFB29E500167FE9 /* Main.storyboard */,
+				A001B1211EFB2D4300167FE9 /* API */,
+				A083D5521EFED1CF004967A6 /* Util */,
+				A0784EE51EFF2B1F00AE4FB8 /* Custom */,
+				A0EBA7BD1EFEC0F8000F7BA6 /* Scenes */,
+				A001B1201EFB2D2E00167FE9 /* Supporting Files */,
+			);
+			path = Chargebacker;
+			sourceTree = "<group>";
+		};
+		A001B1061EFB29E500167FE9 /* ChargebackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A001B1071EFB29E500167FE9 /* ChargebackerTests.swift */,
+				A001B1091EFB29E500167FE9 /* Info.plist */,
+			);
+			path = ChargebackerTests;
+			sourceTree = "<group>";
+		};
+		A001B1111EFB29E500167FE9 /* ChargebackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A001B1121EFB29E500167FE9 /* ChargebackerUITests.swift */,
+				A001B1141EFB29E500167FE9 /* Info.plist */,
+			);
+			path = ChargebackerUITests;
+			sourceTree = "<group>";
+		};
+		A001B1201EFB2D2E00167FE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A083D54A1EFECA22004967A6 /* R.generated.swift */,
+				A001B0F91EFB29E500167FE9 /* Assets.xcassets */,
+				A001B0FB1EFB29E500167FE9 /* LaunchScreen.storyboard */,
+				A001B0FE1EFB29E500167FE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A001B1211EFB2D4300167FE9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A001B1221EFB2E2500167FE9 /* Classes */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		A001B1221EFB2E2500167FE9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A001B1231EFB2E7B00167FE9 /* API.swift */,
+				A0784EE11EFF2A9700AE4FB8 /* Api.strings */,
+				A082A6761EFEB3500043E644 /* Typealias.swift */,
+				A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */,
+				A083D5411EFEC7D1004967A6 /* URLComposer.swift */,
+				A083D5451EFEC7F3004967A6 /* Paths.swift */,
+				A0784ECB1EFF09F100AE4FB8 /* APIs */,
+				A03774311EFEB4570018DC50 /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A023FFD61EFEEFE5008F3354 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */,
+				A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */,
+				A0EBA7DC1EFEC2EF000F7BA6 /* NoticePresenter.swift */,
+				A0EBA7DD1EFEC2EF000F7BA6 /* NoticeRouter.swift */,
+				A0EBA7DE1EFEC2EF000F7BA6 /* NoticeViewController.swift */,
+				A0EBA7DF1EFEC2EF000F7BA6 /* NoticeWorker.swift */,
+				A023FFF01EFF0133008F3354 /* Notice.strings */,
+			);
+			name = Notice;
+			sourceTree = "<group>";
+		};
+		A023FFD71EFEF000008F3354 /* Chargeback */ = {
+			isa = PBXGroup;
+			children = (
+				A023FFD81EFEF022008F3354 /* ChargebackInteractor.swift */,
+				A023FFD91EFEF022008F3354 /* ChargebackModels.swift */,
+				A023FFDA1EFEF022008F3354 /* ChargebackPresenter.swift */,
+				A023FFDB1EFEF022008F3354 /* ChargebackRouter.swift */,
+				A023FFDC1EFEF022008F3354 /* ChargebackViewController.swift */,
+				A023FFDD1EFEF022008F3354 /* ChargebackWorker.swift */,
+				A023FFF41EFF013D008F3354 /* Chargeback.strings */,
+			);
+			name = Chargeback;
+			sourceTree = "<group>";
+		};
+		A03774311EFEB4570018DC50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0784ED51EFF0AE200AE4FB8 /* ReasonDetail.swift */,
+				A0784ED41EFF0ABA00AE4FB8 /* IO */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A0784ECB1EFF09F100AE4FB8 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				A0784ECC1EFF0A0A00AE4FB8 /* Chargeback.swift */,
+				A0784ED91EFF292200AE4FB8 /* Notice.swift */,
+				A0784EDD1EFF2A3900AE4FB8 /* Card.swift */,
+			);
+			name = APIs;
+			sourceTree = "<group>";
+		};
+		A0784ED41EFF0ABA00AE4FB8 /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				A037742D1EFEB4540018DC50 /* BaseOutput.swift */,
+				A083D5391EFEC50B004967A6 /* NoticeOutput.swift */,
+				A023FFD21EFEE9FD008F3354 /* ChargebackOutput.swift */,
+				A0784ED01EFF0A7000AE4FB8 /* ChargebackInput.swift */,
+			);
+			name = IO;
+			sourceTree = "<group>";
+		};
+		A0784EE51EFF2B1F00AE4FB8 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				A0784EFE1EFF302B00AE4FB8 /* ModalAlert */,
+				A0784F071EFF3AA100AE4FB8 /* DefaultLabel.swift */,
+				A0784F0B1EFF43D000AE4FB8 /* DefaultButton.swift */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		A0784EFE1EFF302B00AE4FB8 /* ModalAlert */ = {
+			isa = PBXGroup;
+			children = (
+				A0784EF21EFF2E6000AE4FB8 /* ModalAlertViewController.swift */,
+				A0784EF31EFF2E6000AE4FB8 /* ModalAlertViewController.xib */,
+				A0784EFA1EFF2F8200AE4FB8 /* ModalAlert.strings */,
+			);
+			name = ModalAlert;
+			sourceTree = "<group>";
+		};
+		A083D5521EFED1CF004967A6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A0784EFF1EFF363200AE4FB8 /* ThemeHandler.swift */,
+				A083D5531EFED206004967A6 /* DataExtensions.swift */,
+				A0784F031EFF36E500AE4FB8 /* ColorExtensions.swift */,
+				A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		A0EBA7BD1EFEC0F8000F7BA6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A023FFD61EFEEFE5008F3354 /* Notice */,
+				A023FFD71EFEF000008F3354 /* Chargeback */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A001B0EE1EFB29E500167FE9 /* Chargebacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A001B1171EFB29E500167FE9 /* Build configuration list for PBXNativeTarget "Chargebacker" */;
+			buildPhases = (
+				F31D48617008F570BEC895A3 /* [CP] Check Pods Manifest.lock */,
+				A083D5491EFEC9CE004967A6 /* R.Swift */,
+				A001B0EB1EFB29E500167FE9 /* Sources */,
+				A001B0EC1EFB29E500167FE9 /* Frameworks */,
+				A001B0ED1EFB29E500167FE9 /* Resources */,
+				B98FC7319C4FDEB21FD609CE /* [CP] Embed Pods Frameworks */,
+				AF0AB0748554D153CAEE8C17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chargebacker;
+			productName = Chargebacker;
+			productReference = A001B0EF1EFB29E500167FE9 /* Chargebacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A001B1021EFB29E500167FE9 /* ChargebackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A001B11A1EFB29E500167FE9 /* Build configuration list for PBXNativeTarget "ChargebackerTests" */;
+			buildPhases = (
+				1A52D4CEAF165C01C860DE09 /* [CP] Check Pods Manifest.lock */,
+				A001B0FF1EFB29E500167FE9 /* Sources */,
+				A001B1001EFB29E500167FE9 /* Frameworks */,
+				A001B1011EFB29E500167FE9 /* Resources */,
+				D5975DA41CE4C0F14DBD7E01 /* [CP] Embed Pods Frameworks */,
+				D0B9D79E0BF9E12555D16839 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A001B1051EFB29E500167FE9 /* PBXTargetDependency */,
+			);
+			name = ChargebackerTests;
+			productName = ChargebackerTests;
+			productReference = A001B1031EFB29E500167FE9 /* ChargebackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A001B10D1EFB29E500167FE9 /* ChargebackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A001B11D1EFB29E500167FE9 /* Build configuration list for PBXNativeTarget "ChargebackerUITests" */;
+			buildPhases = (
+				94D91491458C25C2822E0FA0 /* [CP] Check Pods Manifest.lock */,
+				A001B10A1EFB29E500167FE9 /* Sources */,
+				A001B10B1EFB29E500167FE9 /* Frameworks */,
+				A001B10C1EFB29E500167FE9 /* Resources */,
+				C0E043A0FA3BE1C0FE502892 /* [CP] Embed Pods Frameworks */,
+				F1ACA78B96DF681B0FE500EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A001B1101EFB29E500167FE9 /* PBXTargetDependency */,
+			);
+			name = ChargebackerUITests;
+			productName = ChargebackerUITests;
+			productReference = A001B10E1EFB29E500167FE9 /* ChargebackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A001B0E71EFB29E500167FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Lucas Pereira";
+				TargetAttributes = {
+					A001B0EE1EFB29E500167FE9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9CY45829Z5;
+						ProvisioningStyle = Automatic;
+					};
+					A001B1021EFB29E500167FE9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9CY45829Z5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A001B0EE1EFB29E500167FE9;
+					};
+					A001B10D1EFB29E500167FE9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9CY45829Z5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A001B0EE1EFB29E500167FE9;
+					};
+				};
+			};
+			buildConfigurationList = A001B0EA1EFB29E500167FE9 /* Build configuration list for PBXProject "Chargebacker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A001B0E61EFB29E500167FE9;
+			productRefGroup = A001B0F01EFB29E500167FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A001B0EE1EFB29E500167FE9 /* Chargebacker */,
+				A001B1021EFB29E500167FE9 /* ChargebackerTests */,
+				A001B10D1EFB29E500167FE9 /* ChargebackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A001B0ED1EFB29E500167FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A023FFF11EFF0133008F3354 /* Notice.strings in Resources */,
+				A0784EE21EFF2A9700AE4FB8 /* Api.strings in Resources */,
+				A023FFF51EFF013D008F3354 /* Chargeback.strings in Resources */,
+				A001B0FD1EFB29E500167FE9 /* LaunchScreen.storyboard in Resources */,
+				A0784EF71EFF2E6000AE4FB8 /* ModalAlertViewController.xib in Resources */,
+				A001B0FA1EFB29E500167FE9 /* Assets.xcassets in Resources */,
+				A0784EFB1EFF2F8200AE4FB8 /* ModalAlert.strings in Resources */,
+				A001B0F81EFB29E500167FE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B1011EFB29E500167FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A023FFF21EFF0133008F3354 /* Notice.strings in Resources */,
+				A0784EF81EFF2E6000AE4FB8 /* ModalAlertViewController.xib in Resources */,
+				A0784EE31EFF2A9700AE4FB8 /* Api.strings in Resources */,
+				A0784EFC1EFF2F8200AE4FB8 /* ModalAlert.strings in Resources */,
+				A023FFF61EFF013D008F3354 /* Chargeback.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B10C1EFB29E500167FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A023FFF31EFF0133008F3354 /* Notice.strings in Resources */,
+				A0784EF91EFF2E6000AE4FB8 /* ModalAlertViewController.xib in Resources */,
+				A0784EE41EFF2A9700AE4FB8 /* Api.strings in Resources */,
+				A0784EFD1EFF2F8200AE4FB8 /* ModalAlert.strings in Resources */,
+				A023FFF71EFF013D008F3354 /* Chargeback.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A52D4CEAF165C01C860DE09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94D91491458C25C2822E0FA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A083D5491EFEC9CE004967A6 /* R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = R.Swift;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
+		AF0AB0748554D153CAEE8C17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chargebacker/Pods-Chargebacker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B98FC7319C4FDEB21FD609CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chargebacker/Pods-Chargebacker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E043A0FA3BE1C0FE502892 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChargebackerUITests/Pods-ChargebackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0B9D79E0BF9E12555D16839 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChargebackerTests/Pods-ChargebackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5975DA41CE4C0F14DBD7E01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChargebackerTests/Pods-ChargebackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1ACA78B96DF681B0FE500EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChargebackerUITests/Pods-ChargebackerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F31D48617008F570BEC895A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A001B0EB1EFB29E500167FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EBA7E61EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */,
+				A0EBA7B81EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */,
+				A083D5541EFED206004967A6 /* DataExtensions.swift in Sources */,
+				A001B1241EFB2E7B00167FE9 /* API.swift in Sources */,
+				A023FFE71EFEF023008F3354 /* ChargebackRouter.swift in Sources */,
+				A0784F041EFF36E500AE4FB8 /* ColorExtensions.swift in Sources */,
+				A082A6771EFEB3500043E644 /* Typealias.swift in Sources */,
+				A0784F001EFF363200AE4FB8 /* ThemeHandler.swift in Sources */,
+				A0EBA7E31EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */,
+				A023FFEA1EFEF023008F3354 /* ChargebackViewController.swift in Sources */,
+				A083D5461EFEC7F3004967A6 /* Paths.swift in Sources */,
+				A0784ED61EFF0AE200AE4FB8 /* ReasonDetail.swift in Sources */,
+				A037742E1EFEB4540018DC50 /* BaseOutput.swift in Sources */,
+				A0784ED11EFF0A7000AE4FB8 /* ChargebackInput.swift in Sources */,
+				A023FFD31EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */,
+				A0784ECD1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */,
+				A0EBA7E01EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */,
+				A023FFDE1EFEF022008F3354 /* ChargebackInteractor.swift in Sources */,
+				A0784F081EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */,
+				A0784F0C1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */,
+				A0784EDA1EFF292200AE4FB8 /* Notice.swift in Sources */,
+				A023FFED1EFEF023008F3354 /* ChargebackWorker.swift in Sources */,
+				A0EBA7E91EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */,
+				A0EBA7EC1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */,
+				A023FFE41EFEF022008F3354 /* ChargebackPresenter.swift in Sources */,
+				A083D54B1EFECA22004967A6 /* R.generated.swift in Sources */,
+				A001B0F31EFB29E500167FE9 /* AppDelegate.swift in Sources */,
+				A0784EDE1EFF2A3900AE4FB8 /* Card.swift in Sources */,
+				A023FFE11EFEF022008F3354 /* ChargebackModels.swift in Sources */,
+				A083D5421EFEC7D1004967A6 /* URLComposer.swift in Sources */,
+				A0784F101EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */,
+				A0784EF41EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */,
+				A083D53A1EFEC50B004967A6 /* NoticeOutput.swift in Sources */,
+				A0EBA7EF1EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B0FF1EFB29E500167FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EBA7EA1EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */,
+				A023FFDF1EFEF022008F3354 /* ChargebackInteractor.swift in Sources */,
+				A0EBA7E71EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */,
+				A083D5431EFEC7D1004967A6 /* URLComposer.swift in Sources */,
+				A083D53B1EFEC50B004967A6 /* NoticeOutput.swift in Sources */,
+				A0784F051EFF36E500AE4FB8 /* ColorExtensions.swift in Sources */,
+				A083D5551EFED206004967A6 /* DataExtensions.swift in Sources */,
+				A0784F011EFF363200AE4FB8 /* ThemeHandler.swift in Sources */,
+				A023FFEE1EFEF023008F3354 /* ChargebackWorker.swift in Sources */,
+				A023FFD41EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */,
+				A083D5501EFECA77004967A6 /* Typealias.swift in Sources */,
+				A0EBA7B91EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */,
+				A0784ED71EFF0AE200AE4FB8 /* ReasonDetail.swift in Sources */,
+				A0EBA7E41EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */,
+				A0784ED21EFF0A7000AE4FB8 /* ChargebackInput.swift in Sources */,
+				A083D54E1EFECA50004967A6 /* API.swift in Sources */,
+				A023FFE21EFEF022008F3354 /* ChargebackModels.swift in Sources */,
+				A083D54C1EFECA22004967A6 /* R.generated.swift in Sources */,
+				A0784F091EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */,
+				A0784F0D1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */,
+				A083D5471EFEC7F3004967A6 /* Paths.swift in Sources */,
+				A001B1081EFB29E500167FE9 /* ChargebackerTests.swift in Sources */,
+				A023FFEB1EFEF023008F3354 /* ChargebackViewController.swift in Sources */,
+				A023FFE51EFEF022008F3354 /* ChargebackPresenter.swift in Sources */,
+				A037742F1EFEB4540018DC50 /* BaseOutput.swift in Sources */,
+				A0784EDB1EFF292200AE4FB8 /* Notice.swift in Sources */,
+				A0EBA7E11EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */,
+				A0784EDF1EFF2A3900AE4FB8 /* Card.swift in Sources */,
+				A0EBA7F01EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */,
+				A0EBA7ED1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */,
+				A0784F111EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */,
+				A0784EF51EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */,
+				A0784ECE1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */,
+				A023FFE81EFEF023008F3354 /* ChargebackRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B10A1EFB29E500167FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EBA7EB1EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */,
+				A023FFE01EFEF022008F3354 /* ChargebackInteractor.swift in Sources */,
+				A0EBA7E81EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */,
+				A083D5441EFEC7D1004967A6 /* URLComposer.swift in Sources */,
+				A083D53C1EFEC50B004967A6 /* NoticeOutput.swift in Sources */,
+				A0784F061EFF36E500AE4FB8 /* ColorExtensions.swift in Sources */,
+				A083D5561EFED206004967A6 /* DataExtensions.swift in Sources */,
+				A0784F021EFF363200AE4FB8 /* ThemeHandler.swift in Sources */,
+				A023FFEF1EFEF023008F3354 /* ChargebackWorker.swift in Sources */,
+				A023FFD51EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */,
+				A083D5511EFECA78004967A6 /* Typealias.swift in Sources */,
+				A0EBA7BA1EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */,
+				A0784ED81EFF0AE200AE4FB8 /* ReasonDetail.swift in Sources */,
+				A0EBA7E51EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */,
+				A0784ED31EFF0A7000AE4FB8 /* ChargebackInput.swift in Sources */,
+				A083D54F1EFECA51004967A6 /* API.swift in Sources */,
+				A023FFE31EFEF022008F3354 /* ChargebackModels.swift in Sources */,
+				A083D54D1EFECA22004967A6 /* R.generated.swift in Sources */,
+				A0784F0A1EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */,
+				A0784F0E1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */,
+				A083D5481EFEC7F3004967A6 /* Paths.swift in Sources */,
+				A001B1131EFB29E500167FE9 /* ChargebackerUITests.swift in Sources */,
+				A023FFEC1EFEF023008F3354 /* ChargebackViewController.swift in Sources */,
+				A023FFE61EFEF022008F3354 /* ChargebackPresenter.swift in Sources */,
+				A03774301EFEB4540018DC50 /* BaseOutput.swift in Sources */,
+				A0784EDC1EFF292200AE4FB8 /* Notice.swift in Sources */,
+				A0EBA7E21EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */,
+				A0784EE01EFF2A3900AE4FB8 /* Card.swift in Sources */,
+				A0EBA7F11EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */,
+				A0EBA7EE1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */,
+				A0784F121EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */,
+				A0784EF61EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */,
+				A0784ECF1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */,
+				A023FFE91EFEF023008F3354 /* ChargebackRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A001B1051EFB29E500167FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A001B0EE1EFB29E500167FE9 /* Chargebacker */;
+			targetProxy = A001B1041EFB29E500167FE9 /* PBXContainerItemProxy */;
+		};
+		A001B1101EFB29E500167FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A001B0EE1EFB29E500167FE9 /* Chargebacker */;
+			targetProxy = A001B10F1EFB29E500167FE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A001B0F61EFB29E500167FE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A001B0F71EFB29E500167FE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A001B0FB1EFB29E500167FE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A001B0FC1EFB29E500167FE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A001B1151EFB29E500167FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A001B1161EFB29E500167FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A001B1181EFB29E500167FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9F63003AFFAFA6D584613E /* Pods-Chargebacker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CY45829Z5;
+				INFOPLIST_FILE = Chargebacker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lucas.Chargebacker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A001B1191EFB29E500167FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6EE8FAC5F7C54845280919F /* Pods-Chargebacker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CY45829Z5;
+				INFOPLIST_FILE = Chargebacker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lucas.Chargebacker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A001B11B1EFB29E500167FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63B55D110CB8A7D3483B41A4 /* Pods-ChargebackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9CY45829Z5;
+				INFOPLIST_FILE = ChargebackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lucas.ChargebackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chargebacker.app/Chargebacker";
+			};
+			name = Debug;
+		};
+		A001B11C1EFB29E500167FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D0CA6B23E745F9F51EA36CC /* Pods-ChargebackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9CY45829Z5;
+				INFOPLIST_FILE = ChargebackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lucas.ChargebackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chargebacker.app/Chargebacker";
+			};
+			name = Release;
+		};
+		A001B11E1EFB29E500167FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2515239952FC951F0D1DE3E /* Pods-ChargebackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9CY45829Z5;
+				INFOPLIST_FILE = ChargebackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lucas.ChargebackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Chargebacker;
+			};
+			name = Debug;
+		};
+		A001B11F1EFB29E500167FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C526D7B41289631FEBF8427 /* Pods-ChargebackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9CY45829Z5;
+				INFOPLIST_FILE = ChargebackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lucas.ChargebackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Chargebacker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A001B0EA1EFB29E500167FE9 /* Build configuration list for PBXProject "Chargebacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001B1151EFB29E500167FE9 /* Debug */,
+				A001B1161EFB29E500167FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A001B1171EFB29E500167FE9 /* Build configuration list for PBXNativeTarget "Chargebacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001B1181EFB29E500167FE9 /* Debug */,
+				A001B1191EFB29E500167FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A001B11A1EFB29E500167FE9 /* Build configuration list for PBXNativeTarget "ChargebackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001B11B1EFB29E500167FE9 /* Debug */,
+				A001B11C1EFB29E500167FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A001B11D1EFB29E500167FE9 /* Build configuration list for PBXNativeTarget "ChargebackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001B11E1EFB29E500167FE9 /* Debug */,
+				A001B11F1EFB29E500167FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A001B0E71EFB29E500167FE9 /* Project object */;
+}

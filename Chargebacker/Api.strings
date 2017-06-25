@@ -1,0 +1,9 @@
+/* 
+  API.strings
+  Chargebacker
+
+  Created by Lucas Pereira on 24/06/17.
+  Copyright © 2017 Lucas Pereira. All rights reserved.
+*/
+
+"genericErrorMessage" = "Erro inesperado. Tente novamente.";
