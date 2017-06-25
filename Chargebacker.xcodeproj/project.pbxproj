@@ -7,144 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18A8522F8F705C8DF5C4CC5D /* Pods_ChargebackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2346303C8DD92CD877B53CCD /* Pods_ChargebackerUITests.framework */; };
 		786835793E2BA6B74B19902E /* Pods_Chargebacker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D80AF52B7129BBF4140B65 /* Pods_Chargebacker.framework */; };
 		A001B0F31EFB29E500167FE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B0F21EFB29E500167FE9 /* AppDelegate.swift */; };
 		A001B0F81EFB29E500167FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001B0F61EFB29E500167FE9 /* Main.storyboard */; };
 		A001B0FA1EFB29E500167FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A001B0F91EFB29E500167FE9 /* Assets.xcassets */; };
 		A001B0FD1EFB29E500167FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001B0FB1EFB29E500167FE9 /* LaunchScreen.storyboard */; };
-		A001B1131EFB29E500167FE9 /* ChargebackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B1121EFB29E500167FE9 /* ChargebackerUITests.swift */; };
 		A001B1241EFB2E7B00167FE9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B1231EFB2E7B00167FE9 /* API.swift */; };
 		A023FFD31EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD21EFEE9FD008F3354 /* ChargebackOutput.swift */; };
 		A023FFD41EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD21EFEE9FD008F3354 /* ChargebackOutput.swift */; };
-		A023FFD51EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD21EFEE9FD008F3354 /* ChargebackOutput.swift */; };
 		A023FFDE1EFEF022008F3354 /* ChargebackInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD81EFEF022008F3354 /* ChargebackInteractor.swift */; };
 		A023FFDF1EFEF022008F3354 /* ChargebackInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD81EFEF022008F3354 /* ChargebackInteractor.swift */; };
-		A023FFE01EFEF022008F3354 /* ChargebackInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD81EFEF022008F3354 /* ChargebackInteractor.swift */; };
 		A023FFE11EFEF022008F3354 /* ChargebackModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD91EFEF022008F3354 /* ChargebackModels.swift */; };
 		A023FFE21EFEF022008F3354 /* ChargebackModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD91EFEF022008F3354 /* ChargebackModels.swift */; };
-		A023FFE31EFEF022008F3354 /* ChargebackModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD91EFEF022008F3354 /* ChargebackModels.swift */; };
 		A023FFE41EFEF022008F3354 /* ChargebackPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDA1EFEF022008F3354 /* ChargebackPresenter.swift */; };
 		A023FFE51EFEF022008F3354 /* ChargebackPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDA1EFEF022008F3354 /* ChargebackPresenter.swift */; };
-		A023FFE61EFEF022008F3354 /* ChargebackPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDA1EFEF022008F3354 /* ChargebackPresenter.swift */; };
 		A023FFE71EFEF023008F3354 /* ChargebackRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDB1EFEF022008F3354 /* ChargebackRouter.swift */; };
 		A023FFE81EFEF023008F3354 /* ChargebackRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDB1EFEF022008F3354 /* ChargebackRouter.swift */; };
-		A023FFE91EFEF023008F3354 /* ChargebackRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDB1EFEF022008F3354 /* ChargebackRouter.swift */; };
 		A023FFEA1EFEF023008F3354 /* ChargebackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDC1EFEF022008F3354 /* ChargebackViewController.swift */; };
 		A023FFEB1EFEF023008F3354 /* ChargebackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDC1EFEF022008F3354 /* ChargebackViewController.swift */; };
-		A023FFEC1EFEF023008F3354 /* ChargebackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDC1EFEF022008F3354 /* ChargebackViewController.swift */; };
 		A023FFED1EFEF023008F3354 /* ChargebackWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDD1EFEF022008F3354 /* ChargebackWorker.swift */; };
 		A023FFEE1EFEF023008F3354 /* ChargebackWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDD1EFEF022008F3354 /* ChargebackWorker.swift */; };
-		A023FFEF1EFEF023008F3354 /* ChargebackWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFDD1EFEF022008F3354 /* ChargebackWorker.swift */; };
 		A023FFF11EFF0133008F3354 /* Notice.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF01EFF0133008F3354 /* Notice.strings */; };
 		A023FFF21EFF0133008F3354 /* Notice.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF01EFF0133008F3354 /* Notice.strings */; };
-		A023FFF31EFF0133008F3354 /* Notice.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF01EFF0133008F3354 /* Notice.strings */; };
 		A023FFF51EFF013D008F3354 /* Chargeback.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF41EFF013D008F3354 /* Chargeback.strings */; };
 		A023FFF61EFF013D008F3354 /* Chargeback.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF41EFF013D008F3354 /* Chargeback.strings */; };
-		A023FFF71EFF013D008F3354 /* Chargeback.strings in Resources */ = {isa = PBXBuildFile; fileRef = A023FFF41EFF013D008F3354 /* Chargeback.strings */; };
 		A037742E1EFEB4540018DC50 /* BaseOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037742D1EFEB4540018DC50 /* BaseOutput.swift */; };
 		A037742F1EFEB4540018DC50 /* BaseOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037742D1EFEB4540018DC50 /* BaseOutput.swift */; };
-		A03774301EFEB4540018DC50 /* BaseOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037742D1EFEB4540018DC50 /* BaseOutput.swift */; };
 		A0784ECD1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ECC1EFF0A0A00AE4FB8 /* Chargeback.swift */; };
 		A0784ECE1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ECC1EFF0A0A00AE4FB8 /* Chargeback.swift */; };
-		A0784ECF1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ECC1EFF0A0A00AE4FB8 /* Chargeback.swift */; };
 		A0784ED11EFF0A7000AE4FB8 /* ChargebackInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED01EFF0A7000AE4FB8 /* ChargebackInput.swift */; };
 		A0784ED21EFF0A7000AE4FB8 /* ChargebackInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED01EFF0A7000AE4FB8 /* ChargebackInput.swift */; };
-		A0784ED31EFF0A7000AE4FB8 /* ChargebackInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED01EFF0A7000AE4FB8 /* ChargebackInput.swift */; };
 		A0784ED61EFF0AE200AE4FB8 /* ReasonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED51EFF0AE200AE4FB8 /* ReasonDetail.swift */; };
 		A0784ED71EFF0AE200AE4FB8 /* ReasonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED51EFF0AE200AE4FB8 /* ReasonDetail.swift */; };
-		A0784ED81EFF0AE200AE4FB8 /* ReasonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED51EFF0AE200AE4FB8 /* ReasonDetail.swift */; };
 		A0784EDA1EFF292200AE4FB8 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED91EFF292200AE4FB8 /* Notice.swift */; };
 		A0784EDB1EFF292200AE4FB8 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED91EFF292200AE4FB8 /* Notice.swift */; };
-		A0784EDC1EFF292200AE4FB8 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784ED91EFF292200AE4FB8 /* Notice.swift */; };
 		A0784EDE1EFF2A3900AE4FB8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EDD1EFF2A3900AE4FB8 /* Card.swift */; };
 		A0784EDF1EFF2A3900AE4FB8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EDD1EFF2A3900AE4FB8 /* Card.swift */; };
-		A0784EE01EFF2A3900AE4FB8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EDD1EFF2A3900AE4FB8 /* Card.swift */; };
 		A0784EE21EFF2A9700AE4FB8 /* Api.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0784EE11EFF2A9700AE4FB8 /* Api.strings */; };
 		A0784EE31EFF2A9700AE4FB8 /* Api.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0784EE11EFF2A9700AE4FB8 /* Api.strings */; };
-		A0784EE41EFF2A9700AE4FB8 /* Api.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0784EE11EFF2A9700AE4FB8 /* Api.strings */; };
 		A0784EF41EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EF21EFF2E6000AE4FB8 /* ModalAlertViewController.swift */; };
 		A0784EF51EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EF21EFF2E6000AE4FB8 /* ModalAlertViewController.swift */; };
-		A0784EF61EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EF21EFF2E6000AE4FB8 /* ModalAlertViewController.swift */; };
 		A0784EF71EFF2E6000AE4FB8 /* ModalAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0784EF31EFF2E6000AE4FB8 /* ModalAlertViewController.xib */; };
 		A0784EF81EFF2E6000AE4FB8 /* ModalAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0784EF31EFF2E6000AE4FB8 /* ModalAlertViewController.xib */; };
-		A0784EF91EFF2E6000AE4FB8 /* ModalAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0784EF31EFF2E6000AE4FB8 /* ModalAlertViewController.xib */; };
 		A0784EFB1EFF2F8200AE4FB8 /* ModalAlert.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0784EFA1EFF2F8200AE4FB8 /* ModalAlert.strings */; };
 		A0784EFC1EFF2F8200AE4FB8 /* ModalAlert.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0784EFA1EFF2F8200AE4FB8 /* ModalAlert.strings */; };
-		A0784EFD1EFF2F8200AE4FB8 /* ModalAlert.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0784EFA1EFF2F8200AE4FB8 /* ModalAlert.strings */; };
 		A0784F001EFF363200AE4FB8 /* ThemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EFF1EFF363200AE4FB8 /* ThemeHandler.swift */; };
 		A0784F011EFF363200AE4FB8 /* ThemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EFF1EFF363200AE4FB8 /* ThemeHandler.swift */; };
-		A0784F021EFF363200AE4FB8 /* ThemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784EFF1EFF363200AE4FB8 /* ThemeHandler.swift */; };
 		A0784F041EFF36E500AE4FB8 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F031EFF36E500AE4FB8 /* ColorExtensions.swift */; };
 		A0784F051EFF36E500AE4FB8 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F031EFF36E500AE4FB8 /* ColorExtensions.swift */; };
-		A0784F061EFF36E500AE4FB8 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F031EFF36E500AE4FB8 /* ColorExtensions.swift */; };
 		A0784F081EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F071EFF3AA100AE4FB8 /* DefaultLabel.swift */; };
 		A0784F091EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F071EFF3AA100AE4FB8 /* DefaultLabel.swift */; };
-		A0784F0A1EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F071EFF3AA100AE4FB8 /* DefaultLabel.swift */; };
 		A0784F0C1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0B1EFF43D000AE4FB8 /* DefaultButton.swift */; };
 		A0784F0D1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0B1EFF43D000AE4FB8 /* DefaultButton.swift */; };
-		A0784F0E1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0B1EFF43D000AE4FB8 /* DefaultButton.swift */; };
 		A0784F101EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */; };
 		A0784F111EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */; };
-		A0784F121EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */; };
 		A0784F181EFF5D6300AE4FB8 /* NoticeOutput.json in Resources */ = {isa = PBXBuildFile; fileRef = A0784F171EFF5D6300AE4FB8 /* NoticeOutput.json */; };
 		A082A6771EFEB3500043E644 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082A6761EFEB3500043E644 /* Typealias.swift */; };
 		A083D53A1EFEC50B004967A6 /* NoticeOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5391EFEC50B004967A6 /* NoticeOutput.swift */; };
 		A083D53B1EFEC50B004967A6 /* NoticeOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5391EFEC50B004967A6 /* NoticeOutput.swift */; };
-		A083D53C1EFEC50B004967A6 /* NoticeOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5391EFEC50B004967A6 /* NoticeOutput.swift */; };
 		A083D5421EFEC7D1004967A6 /* URLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5411EFEC7D1004967A6 /* URLComposer.swift */; };
 		A083D5431EFEC7D1004967A6 /* URLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5411EFEC7D1004967A6 /* URLComposer.swift */; };
-		A083D5441EFEC7D1004967A6 /* URLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5411EFEC7D1004967A6 /* URLComposer.swift */; };
 		A083D5461EFEC7F3004967A6 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5451EFEC7F3004967A6 /* Paths.swift */; };
 		A083D5471EFEC7F3004967A6 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5451EFEC7F3004967A6 /* Paths.swift */; };
-		A083D5481EFEC7F3004967A6 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5451EFEC7F3004967A6 /* Paths.swift */; };
 		A083D54B1EFECA22004967A6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D54A1EFECA22004967A6 /* R.generated.swift */; };
 		A083D54C1EFECA22004967A6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D54A1EFECA22004967A6 /* R.generated.swift */; };
-		A083D54D1EFECA22004967A6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D54A1EFECA22004967A6 /* R.generated.swift */; };
 		A083D54E1EFECA50004967A6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B1231EFB2E7B00167FE9 /* API.swift */; };
-		A083D54F1EFECA51004967A6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B1231EFB2E7B00167FE9 /* API.swift */; };
 		A083D5501EFECA77004967A6 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082A6761EFEB3500043E644 /* Typealias.swift */; };
-		A083D5511EFECA78004967A6 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082A6761EFEB3500043E644 /* Typealias.swift */; };
 		A083D5541EFED206004967A6 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5531EFED206004967A6 /* DataExtensions.swift */; };
 		A083D5551EFED206004967A6 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5531EFED206004967A6 /* DataExtensions.swift */; };
-		A083D5561EFED206004967A6 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5531EFED206004967A6 /* DataExtensions.swift */; };
-		A0A729771EFF60ED000156C1 /* CoreSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729761EFF60ED000156C1 /* CoreSpec.swift */; };
+		A0A729771EFF60ED000156C1 /* NoticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729761EFF60ED000156C1 /* NoticeTests.swift */; };
 		A0A729791EFF7332000156C1 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729781EFF7332000156C1 /* StringExtensions.swift */; };
 		A0A7297A1EFF7332000156C1 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729781EFF7332000156C1 /* StringExtensions.swift */; };
-		A0A7297B1EFF7332000156C1 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729781EFF7332000156C1 /* StringExtensions.swift */; };
+		A0A7297D1F00077B000156C1 /* APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7297C1F00077B000156C1 /* APITests.swift */; };
+		A0A7297F1F000D4D000156C1 /* Mocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A7297E1F000D4D000156C1 /* Mocker.swift */; };
+		A0A729811F000DDA000156C1 /* ChargebackInput.json in Resources */ = {isa = PBXBuildFile; fileRef = A0A729801F000DDA000156C1 /* ChargebackInput.json */; };
+		A0A729831F00165C000156C1 /* ChargebackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729821F00165C000156C1 /* ChargebackTests.swift */; };
+		A0A729851F00178A000156C1 /* ChargebackOutput.json in Resources */ = {isa = PBXBuildFile; fileRef = A0A729841F00178A000156C1 /* ChargebackOutput.json */; };
 		A0EBA7B81EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
 		A0EBA7B91EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
-		A0EBA7BA1EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
 		A0EBA7E01EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */; };
 		A0EBA7E11EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */; };
-		A0EBA7E21EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */; };
 		A0EBA7E31EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */; };
 		A0EBA7E41EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */; };
-		A0EBA7E51EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */; };
 		A0EBA7E61EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DC1EFEC2EF000F7BA6 /* NoticePresenter.swift */; };
 		A0EBA7E71EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DC1EFEC2EF000F7BA6 /* NoticePresenter.swift */; };
-		A0EBA7E81EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DC1EFEC2EF000F7BA6 /* NoticePresenter.swift */; };
 		A0EBA7E91EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DD1EFEC2EF000F7BA6 /* NoticeRouter.swift */; };
 		A0EBA7EA1EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DD1EFEC2EF000F7BA6 /* NoticeRouter.swift */; };
-		A0EBA7EB1EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DD1EFEC2EF000F7BA6 /* NoticeRouter.swift */; };
 		A0EBA7EC1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DE1EFEC2EF000F7BA6 /* NoticeViewController.swift */; };
 		A0EBA7ED1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DE1EFEC2EF000F7BA6 /* NoticeViewController.swift */; };
-		A0EBA7EE1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DE1EFEC2EF000F7BA6 /* NoticeViewController.swift */; };
 		A0EBA7EF1EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DF1EFEC2EF000F7BA6 /* NoticeWorker.swift */; };
 		A0EBA7F01EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DF1EFEC2EF000F7BA6 /* NoticeWorker.swift */; };
-		A0EBA7F11EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DF1EFEC2EF000F7BA6 /* NoticeWorker.swift */; };
 		A3706732F6551998A9B886A7 /* Pods_ChargebackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E9C0EDF41183C997602A11 /* Pods_ChargebackerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		A001B1041EFB29E500167FE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A001B0E71EFB29E500167FE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A001B0EE1EFB29E500167FE9;
-			remoteInfo = Chargebacker;
-		};
-		A001B10F1EFB29E500167FE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A001B0E71EFB29E500167FE9 /* Project object */;
 			proxyType = 1;
@@ -167,9 +124,6 @@
 		A001B0FE1EFB29E500167FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A001B1031EFB29E500167FE9 /* ChargebackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChargebackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A001B1091EFB29E500167FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A001B10E1EFB29E500167FE9 /* ChargebackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChargebackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A001B1121EFB29E500167FE9 /* ChargebackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargebackerUITests.swift; sourceTree = "<group>"; };
-		A001B1141EFB29E500167FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A001B1231EFB2E7B00167FE9 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		A023FFD21EFEE9FD008F3354 /* ChargebackOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackOutput.swift; sourceTree = "<group>"; };
 		A023FFD81EFEF022008F3354 /* ChargebackInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackInteractor.swift; sourceTree = "<group>"; };
@@ -202,8 +156,13 @@
 		A083D5451EFEC7F3004967A6 /* Paths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paths.swift; sourceTree = "<group>"; };
 		A083D54A1EFECA22004967A6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		A083D5531EFED206004967A6 /* DataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
-		A0A729761EFF60ED000156C1 /* CoreSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreSpec.swift; sourceTree = "<group>"; };
+		A0A729761EFF60ED000156C1 /* NoticeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeTests.swift; sourceTree = "<group>"; };
 		A0A729781EFF7332000156C1 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		A0A7297C1F00077B000156C1 /* APITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APITests.swift; sourceTree = "<group>"; };
+		A0A7297E1F000D4D000156C1 /* Mocker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocker.swift; sourceTree = "<group>"; };
+		A0A729801F000DDA000156C1 /* ChargebackInput.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChargebackInput.json; sourceTree = "<group>"; };
+		A0A729821F00165C000156C1 /* ChargebackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackTests.swift; sourceTree = "<group>"; };
+		A0A729841F00178A000156C1 /* ChargebackOutput.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChargebackOutput.json; sourceTree = "<group>"; };
 		A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeInteractor.swift; sourceTree = "<group>"; };
 		A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeModels.swift; sourceTree = "<group>"; };
@@ -231,14 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3706732F6551998A9B886A7 /* Pods_ChargebackerTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A001B10B1EFB29E500167FE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18A8522F8F705C8DF5C4CC5D /* Pods_ChargebackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +224,6 @@
 			children = (
 				A001B0F11EFB29E500167FE9 /* Chargebacker */,
 				A001B1061EFB29E500167FE9 /* ChargebackerTests */,
-				A001B1111EFB29E500167FE9 /* ChargebackerUITests */,
 				A001B0F01EFB29E500167FE9 /* Products */,
 				7974942251E7FDCE77817E91 /* Pods */,
 				0E9635854DF5958434857ACB /* Frameworks */,
@@ -285,7 +235,6 @@
 			children = (
 				A001B0EF1EFB29E500167FE9 /* Chargebacker.app */,
 				A001B1031EFB29E500167FE9 /* ChargebackerTests.xctest */,
-				A001B10E1EFB29E500167FE9 /* ChargebackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -308,19 +257,13 @@
 			isa = PBXGroup;
 			children = (
 				A0784F191EFF5D6800AE4FB8 /* Mocks */,
-				A0A729761EFF60ED000156C1 /* CoreSpec.swift */,
+				A0A729761EFF60ED000156C1 /* NoticeTests.swift */,
+				A0A729821F00165C000156C1 /* ChargebackTests.swift */,
+				A0A7297C1F00077B000156C1 /* APITests.swift */,
+				A0A7297E1F000D4D000156C1 /* Mocker.swift */,
 				A001B1091EFB29E500167FE9 /* Info.plist */,
 			);
 			path = ChargebackerTests;
-			sourceTree = "<group>";
-		};
-		A001B1111EFB29E500167FE9 /* ChargebackerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A001B1121EFB29E500167FE9 /* ChargebackerUITests.swift */,
-				A001B1141EFB29E500167FE9 /* Info.plist */,
-			);
-			path = ChargebackerUITests;
 			sourceTree = "<group>";
 		};
 		A001B1201EFB2D2E00167FE9 /* Supporting Files */ = {
@@ -439,6 +382,8 @@
 			isa = PBXGroup;
 			children = (
 				A0784F171EFF5D6300AE4FB8 /* NoticeOutput.json */,
+				A0A729801F000DDA000156C1 /* ChargebackInput.json */,
+				A0A729841F00178A000156C1 /* ChargebackOutput.json */,
 			);
 			name = Mocks;
 			sourceTree = "<group>";
@@ -509,27 +454,6 @@
 			productReference = A001B1031EFB29E500167FE9 /* ChargebackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A001B10D1EFB29E500167FE9 /* ChargebackerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A001B11D1EFB29E500167FE9 /* Build configuration list for PBXNativeTarget "ChargebackerUITests" */;
-			buildPhases = (
-				94D91491458C25C2822E0FA0 /* [CP] Check Pods Manifest.lock */,
-				A001B10A1EFB29E500167FE9 /* Sources */,
-				A001B10B1EFB29E500167FE9 /* Frameworks */,
-				A001B10C1EFB29E500167FE9 /* Resources */,
-				C0E043A0FA3BE1C0FE502892 /* [CP] Embed Pods Frameworks */,
-				F1ACA78B96DF681B0FE500EC /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A001B1101EFB29E500167FE9 /* PBXTargetDependency */,
-			);
-			name = ChargebackerUITests;
-			productName = ChargebackerUITests;
-			productReference = A001B10E1EFB29E500167FE9 /* ChargebackerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -546,12 +470,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					A001B1021EFB29E500167FE9 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 9CY45829Z5;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A001B0EE1EFB29E500167FE9;
-					};
-					A001B10D1EFB29E500167FE9 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 9CY45829Z5;
 						ProvisioningStyle = Automatic;
@@ -574,7 +492,6 @@
 			targets = (
 				A001B0EE1EFB29E500167FE9 /* Chargebacker */,
 				A001B1021EFB29E500167FE9 /* ChargebackerTests */,
-				A001B10D1EFB29E500167FE9 /* ChargebackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -602,21 +519,11 @@
 				A023FFF21EFF0133008F3354 /* Notice.strings in Resources */,
 				A0784EF81EFF2E6000AE4FB8 /* ModalAlertViewController.xib in Resources */,
 				A0784EE31EFF2A9700AE4FB8 /* Api.strings in Resources */,
+				A0A729811F000DDA000156C1 /* ChargebackInput.json in Resources */,
+				A0A729851F00178A000156C1 /* ChargebackOutput.json in Resources */,
 				A0784EFC1EFF2F8200AE4FB8 /* ModalAlert.strings in Resources */,
 				A0784F181EFF5D6300AE4FB8 /* NoticeOutput.json in Resources */,
 				A023FFF61EFF013D008F3354 /* Chargeback.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A001B10C1EFB29E500167FE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A023FFF31EFF0133008F3354 /* Notice.strings in Resources */,
-				A0784EF91EFF2E6000AE4FB8 /* ModalAlertViewController.xib in Resources */,
-				A0784EE41EFF2A9700AE4FB8 /* Api.strings in Resources */,
-				A0784EFD1EFF2F8200AE4FB8 /* ModalAlert.strings in Resources */,
-				A023FFF71EFF013D008F3354 /* Chargeback.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,21 +531,6 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		1A52D4CEAF165C01C860DE09 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		94D91491458C25C2822E0FA0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -697,21 +589,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chargebacker/Pods-Chargebacker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C0E043A0FA3BE1C0FE502892 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChargebackerUITests/Pods-ChargebackerUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D0B9D79E0BF9E12555D16839 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -740,21 +617,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChargebackerTests/Pods-ChargebackerTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F1ACA78B96DF681B0FE500EC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChargebackerUITests/Pods-ChargebackerUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F31D48617008F570BEC895A3 /* [CP] Check Pods Manifest.lock */ = {
@@ -823,6 +685,7 @@
 			files = (
 				A0EBA7EA1EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */,
 				A023FFDF1EFEF022008F3354 /* ChargebackInteractor.swift in Sources */,
+				A0A7297D1F00077B000156C1 /* APITests.swift in Sources */,
 				A0EBA7E71EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */,
 				A083D5431EFEC7D1004967A6 /* URLComposer.swift in Sources */,
 				A083D53B1EFEC50B004967A6 /* NoticeOutput.swift in Sources */,
@@ -830,7 +693,7 @@
 				A083D5551EFED206004967A6 /* DataExtensions.swift in Sources */,
 				A0784F011EFF363200AE4FB8 /* ThemeHandler.swift in Sources */,
 				A023FFEE1EFEF023008F3354 /* ChargebackWorker.swift in Sources */,
-				A0A729771EFF60ED000156C1 /* CoreSpec.swift in Sources */,
+				A0A729771EFF60ED000156C1 /* NoticeTests.swift in Sources */,
 				A023FFD41EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */,
 				A083D5501EFECA77004967A6 /* Typealias.swift in Sources */,
 				A0EBA7B91EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */,
@@ -852,52 +715,12 @@
 				A0784EDF1EFF2A3900AE4FB8 /* Card.swift in Sources */,
 				A0EBA7F01EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */,
 				A0EBA7ED1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */,
+				A0A729831F00165C000156C1 /* ChargebackTests.swift in Sources */,
+				A0A7297F1F000D4D000156C1 /* Mocker.swift in Sources */,
 				A0784F111EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */,
 				A0784EF51EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */,
 				A0784ECE1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */,
 				A023FFE81EFEF023008F3354 /* ChargebackRouter.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A001B10A1EFB29E500167FE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0EBA7EB1EFEC2EF000F7BA6 /* NoticeRouter.swift in Sources */,
-				A023FFE01EFEF022008F3354 /* ChargebackInteractor.swift in Sources */,
-				A0EBA7E81EFEC2EF000F7BA6 /* NoticePresenter.swift in Sources */,
-				A083D5441EFEC7D1004967A6 /* URLComposer.swift in Sources */,
-				A083D53C1EFEC50B004967A6 /* NoticeOutput.swift in Sources */,
-				A0784F061EFF36E500AE4FB8 /* ColorExtensions.swift in Sources */,
-				A083D5561EFED206004967A6 /* DataExtensions.swift in Sources */,
-				A0784F021EFF363200AE4FB8 /* ThemeHandler.swift in Sources */,
-				A023FFEF1EFEF023008F3354 /* ChargebackWorker.swift in Sources */,
-				A023FFD51EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */,
-				A083D5511EFECA78004967A6 /* Typealias.swift in Sources */,
-				A0EBA7BA1EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */,
-				A0784ED81EFF0AE200AE4FB8 /* ReasonDetail.swift in Sources */,
-				A0EBA7E51EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */,
-				A0784ED31EFF0A7000AE4FB8 /* ChargebackInput.swift in Sources */,
-				A083D54F1EFECA51004967A6 /* API.swift in Sources */,
-				A023FFE31EFEF022008F3354 /* ChargebackModels.swift in Sources */,
-				A0A7297B1EFF7332000156C1 /* StringExtensions.swift in Sources */,
-				A083D54D1EFECA22004967A6 /* R.generated.swift in Sources */,
-				A0784F0A1EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */,
-				A0784F0E1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */,
-				A083D5481EFEC7F3004967A6 /* Paths.swift in Sources */,
-				A001B1131EFB29E500167FE9 /* ChargebackerUITests.swift in Sources */,
-				A023FFEC1EFEF023008F3354 /* ChargebackViewController.swift in Sources */,
-				A023FFE61EFEF022008F3354 /* ChargebackPresenter.swift in Sources */,
-				A03774301EFEB4540018DC50 /* BaseOutput.swift in Sources */,
-				A0784EDC1EFF292200AE4FB8 /* Notice.swift in Sources */,
-				A0EBA7E21EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */,
-				A0784EE01EFF2A3900AE4FB8 /* Card.swift in Sources */,
-				A0EBA7F11EFEC2EF000F7BA6 /* NoticeWorker.swift in Sources */,
-				A0EBA7EE1EFEC2EF000F7BA6 /* NoticeViewController.swift in Sources */,
-				A0784F121EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */,
-				A0784EF61EFF2E6000AE4FB8 /* ModalAlertViewController.swift in Sources */,
-				A0784ECF1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */,
-				A023FFE91EFEF023008F3354 /* ChargebackRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -908,11 +731,6 @@
 			isa = PBXTargetDependency;
 			target = A001B0EE1EFB29E500167FE9 /* Chargebacker */;
 			targetProxy = A001B1041EFB29E500167FE9 /* PBXContainerItemProxy */;
-		};
-		A001B1101EFB29E500167FE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A001B0EE1EFB29E500167FE9 /* Chargebacker */;
-			targetProxy = A001B10F1EFB29E500167FE9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1091,36 +909,6 @@
 			};
 			name = Release;
 		};
-		A001B11E1EFB29E500167FE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2515239952FC951F0D1DE3E /* Pods-ChargebackerUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 9CY45829Z5;
-				INFOPLIST_FILE = ChargebackerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.lucas.ChargebackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Chargebacker;
-			};
-			name = Debug;
-		};
-		A001B11F1EFB29E500167FE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C526D7B41289631FEBF8427 /* Pods-ChargebackerUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 9CY45829Z5;
-				INFOPLIST_FILE = ChargebackerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.lucas.ChargebackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Chargebacker;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1147,15 +935,6 @@
 			buildConfigurations = (
 				A001B11B1EFB29E500167FE9 /* Debug */,
 				A001B11C1EFB29E500167FE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A001B11D1EFB29E500167FE9 /* Build configuration list for PBXNativeTarget "ChargebackerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A001B11E1EFB29E500167FE9 /* Debug */,
-				A001B11F1EFB29E500167FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

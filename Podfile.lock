@@ -10,7 +10,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
-  - ALLoadingView
+  - ALLoadingView (~> 1.1.3)
   - Nimble (~> 7.0)
   - Quick (~> 1.1)
   - R.swift (~> 3.3)
@@ -25,6 +25,6 @@ SPEC CHECKSUMS:
   R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 099a584c3f225aa2766a3284b1ca1b987eef0b32
+PODFILE CHECKSUM: c389afbf7371ca0d2b7f8708c34f975f87c49e37
 
 COCOAPODS: 1.2.1

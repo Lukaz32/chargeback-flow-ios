@@ -17,9 +17,4 @@ target 'Chargebacker' do
         pod 'Nimble', '~> 7.0'
     end
     
-    target 'ChargebackerUITests' do
-        inherit! :search_paths
-        # Pods for testing
-    end
-    
 end
