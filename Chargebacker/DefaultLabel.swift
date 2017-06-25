@@ -13,6 +13,7 @@ class DefaultLabel: UILabel {
     // MARK: Properties
     
     @IBInspectable var isTitle: Bool = false
+    @IBInspectable var isBold: Bool = false
     @IBInspectable var indicatesCaution: Bool = false
     
     // MARK: View Life Cycle
@@ -24,7 +25,7 @@ class DefaultLabel: UILabel {
     
     private func setupLayout() {
         let size = font.pointSize
-        font = ThemeHandler.mainRegularFont(size: size)
+        font = isBold ? ThemeHandler.mainBoldFont(size: size) :ThemeHandler.mainRegularFont(size: size)
         textColor = isTitle ? ThemeHandler.purpleColor() : ThemeHandler.blackColor()
         if indicatesCaution { textColor = ThemeHandler.redColor() }
     }

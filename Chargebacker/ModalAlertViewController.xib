@@ -47,6 +47,7 @@
                             <nil key="highlightedColor"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="boolean" keyPath="isTitle" value="YES"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isBold" value="YES"/>
                             </userDefinedRuntimeAttributes>
                         </label>
                     </subviews>
