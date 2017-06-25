@@ -13,7 +13,6 @@
 		A001B0F81EFB29E500167FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001B0F61EFB29E500167FE9 /* Main.storyboard */; };
 		A001B0FA1EFB29E500167FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A001B0F91EFB29E500167FE9 /* Assets.xcassets */; };
 		A001B0FD1EFB29E500167FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001B0FB1EFB29E500167FE9 /* LaunchScreen.storyboard */; };
-		A001B1081EFB29E500167FE9 /* ChargebackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B1071EFB29E500167FE9 /* ChargebackerTests.swift */; };
 		A001B1131EFB29E500167FE9 /* ChargebackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B1121EFB29E500167FE9 /* ChargebackerUITests.swift */; };
 		A001B1241EFB2E7B00167FE9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B1231EFB2E7B00167FE9 /* API.swift */; };
 		A023FFD31EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FFD21EFEE9FD008F3354 /* ChargebackOutput.swift */; };
@@ -88,6 +87,7 @@
 		A0784F101EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */; };
 		A0784F111EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */; };
 		A0784F121EFF561A00AE4FB8 /* GeneralAlerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */; };
+		A0784F181EFF5D6300AE4FB8 /* NoticeOutput.json in Resources */ = {isa = PBXBuildFile; fileRef = A0784F171EFF5D6300AE4FB8 /* NoticeOutput.json */; };
 		A082A6771EFEB3500043E644 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082A6761EFEB3500043E644 /* Typealias.swift */; };
 		A083D53A1EFEC50B004967A6 /* NoticeOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5391EFEC50B004967A6 /* NoticeOutput.swift */; };
 		A083D53B1EFEC50B004967A6 /* NoticeOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5391EFEC50B004967A6 /* NoticeOutput.swift */; };
@@ -108,6 +108,7 @@
 		A083D5541EFED206004967A6 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5531EFED206004967A6 /* DataExtensions.swift */; };
 		A083D5551EFED206004967A6 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5531EFED206004967A6 /* DataExtensions.swift */; };
 		A083D5561EFED206004967A6 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5531EFED206004967A6 /* DataExtensions.swift */; };
+		A0A729771EFF60ED000156C1 /* CoreSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729761EFF60ED000156C1 /* CoreSpec.swift */; };
 		A0EBA7B81EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
 		A0EBA7B91EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
 		A0EBA7BA1EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
@@ -162,7 +163,6 @@
 		A001B0FC1EFB29E500167FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A001B0FE1EFB29E500167FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A001B1031EFB29E500167FE9 /* ChargebackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChargebackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A001B1071EFB29E500167FE9 /* ChargebackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargebackerTests.swift; sourceTree = "<group>"; };
 		A001B1091EFB29E500167FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A001B10E1EFB29E500167FE9 /* ChargebackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChargebackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A001B1121EFB29E500167FE9 /* ChargebackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargebackerUITests.swift; sourceTree = "<group>"; };
@@ -192,12 +192,14 @@
 		A0784F071EFF3AA100AE4FB8 /* DefaultLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLabel.swift; sourceTree = "<group>"; };
 		A0784F0B1EFF43D000AE4FB8 /* DefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
 		A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralAlerter.swift; sourceTree = "<group>"; };
+		A0784F171EFF5D6300AE4FB8 /* NoticeOutput.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NoticeOutput.json; sourceTree = "<group>"; };
 		A082A6761EFEB3500043E644 /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		A083D5391EFEC50B004967A6 /* NoticeOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeOutput.swift; sourceTree = "<group>"; };
 		A083D5411EFEC7D1004967A6 /* URLComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComposer.swift; sourceTree = "<group>"; };
 		A083D5451EFEC7F3004967A6 /* Paths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paths.swift; sourceTree = "<group>"; };
 		A083D54A1EFECA22004967A6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		A083D5531EFED206004967A6 /* DataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
+		A0A729761EFF60ED000156C1 /* CoreSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreSpec.swift; sourceTree = "<group>"; };
 		A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeInteractor.swift; sourceTree = "<group>"; };
 		A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeModels.swift; sourceTree = "<group>"; };
@@ -301,7 +303,8 @@
 		A001B1061EFB29E500167FE9 /* ChargebackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				A001B1071EFB29E500167FE9 /* ChargebackerTests.swift */,
+				A0784F191EFF5D6800AE4FB8 /* Mocks */,
+				A0A729761EFF60ED000156C1 /* CoreSpec.swift */,
 				A001B1091EFB29E500167FE9 /* Info.plist */,
 			);
 			path = ChargebackerTests;
@@ -426,6 +429,14 @@
 				A0784EFA1EFF2F8200AE4FB8 /* ModalAlert.strings */,
 			);
 			name = ModalAlert;
+			sourceTree = "<group>";
+		};
+		A0784F191EFF5D6800AE4FB8 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				A0784F171EFF5D6300AE4FB8 /* NoticeOutput.json */,
+			);
+			name = Mocks;
 			sourceTree = "<group>";
 		};
 		A083D5521EFED1CF004967A6 /* Util */ = {
@@ -587,6 +598,7 @@
 				A0784EF81EFF2E6000AE4FB8 /* ModalAlertViewController.xib in Resources */,
 				A0784EE31EFF2A9700AE4FB8 /* Api.strings in Resources */,
 				A0784EFC1EFF2F8200AE4FB8 /* ModalAlert.strings in Resources */,
+				A0784F181EFF5D6300AE4FB8 /* NoticeOutput.json in Resources */,
 				A023FFF61EFF013D008F3354 /* Chargeback.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -812,6 +824,7 @@
 				A083D5551EFED206004967A6 /* DataExtensions.swift in Sources */,
 				A0784F011EFF363200AE4FB8 /* ThemeHandler.swift in Sources */,
 				A023FFEE1EFEF023008F3354 /* ChargebackWorker.swift in Sources */,
+				A0A729771EFF60ED000156C1 /* CoreSpec.swift in Sources */,
 				A023FFD41EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */,
 				A083D5501EFECA77004967A6 /* Typealias.swift in Sources */,
 				A0EBA7B91EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */,
@@ -824,7 +837,6 @@
 				A0784F091EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */,
 				A0784F0D1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */,
 				A083D5471EFEC7F3004967A6 /* Paths.swift in Sources */,
-				A001B1081EFB29E500167FE9 /* ChargebackerTests.swift in Sources */,
 				A023FFEB1EFEF023008F3354 /* ChargebackViewController.swift in Sources */,
 				A023FFE51EFEF022008F3354 /* ChargebackPresenter.swift in Sources */,
 				A037742F1EFEB4540018DC50 /* BaseOutput.swift in Sources */,
