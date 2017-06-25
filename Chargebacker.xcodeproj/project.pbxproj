@@ -109,6 +109,9 @@
 		A083D5551EFED206004967A6 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5531EFED206004967A6 /* DataExtensions.swift */; };
 		A083D5561EFED206004967A6 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083D5531EFED206004967A6 /* DataExtensions.swift */; };
 		A0A729771EFF60ED000156C1 /* CoreSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729761EFF60ED000156C1 /* CoreSpec.swift */; };
+		A0A729791EFF7332000156C1 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729781EFF7332000156C1 /* StringExtensions.swift */; };
+		A0A7297A1EFF7332000156C1 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729781EFF7332000156C1 /* StringExtensions.swift */; };
+		A0A7297B1EFF7332000156C1 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729781EFF7332000156C1 /* StringExtensions.swift */; };
 		A0EBA7B81EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
 		A0EBA7B91EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
 		A0EBA7BA1EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
@@ -200,6 +203,7 @@
 		A083D54A1EFECA22004967A6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		A083D5531EFED206004967A6 /* DataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
 		A0A729761EFF60ED000156C1 /* CoreSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreSpec.swift; sourceTree = "<group>"; };
+		A0A729781EFF7332000156C1 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeInteractor.swift; sourceTree = "<group>"; };
 		A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeModels.swift; sourceTree = "<group>"; };
@@ -445,6 +449,7 @@
 				A0784EFF1EFF363200AE4FB8 /* ThemeHandler.swift */,
 				A083D5531EFED206004967A6 /* DataExtensions.swift */,
 				A0784F031EFF36E500AE4FB8 /* ColorExtensions.swift */,
+				A0A729781EFF7332000156C1 /* StringExtensions.swift */,
 				A0784F0F1EFF561A00AE4FB8 /* GeneralAlerter.swift */,
 			);
 			name = Util;
@@ -791,6 +796,7 @@
 				A023FFD31EFEE9FD008F3354 /* ChargebackOutput.swift in Sources */,
 				A0784ECD1EFF0A0A00AE4FB8 /* Chargeback.swift in Sources */,
 				A0EBA7E01EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */,
+				A0A729791EFF7332000156C1 /* StringExtensions.swift in Sources */,
 				A023FFDE1EFEF022008F3354 /* ChargebackInteractor.swift in Sources */,
 				A0784F081EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */,
 				A0784F0C1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */,
@@ -832,6 +838,7 @@
 				A0EBA7E41EFEC2EF000F7BA6 /* NoticeModels.swift in Sources */,
 				A0784ED21EFF0A7000AE4FB8 /* ChargebackInput.swift in Sources */,
 				A083D54E1EFECA50004967A6 /* API.swift in Sources */,
+				A0A7297A1EFF7332000156C1 /* StringExtensions.swift in Sources */,
 				A023FFE21EFEF022008F3354 /* ChargebackModels.swift in Sources */,
 				A083D54C1EFECA22004967A6 /* R.generated.swift in Sources */,
 				A0784F091EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */,
@@ -873,6 +880,7 @@
 				A0784ED31EFF0A7000AE4FB8 /* ChargebackInput.swift in Sources */,
 				A083D54F1EFECA51004967A6 /* API.swift in Sources */,
 				A023FFE31EFEF022008F3354 /* ChargebackModels.swift in Sources */,
+				A0A7297B1EFF7332000156C1 /* StringExtensions.swift in Sources */,
 				A083D54D1EFECA22004967A6 /* R.generated.swift in Sources */,
 				A0784F0A1EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */,
 				A0784F0E1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */,

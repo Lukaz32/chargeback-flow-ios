@@ -31,6 +31,7 @@ class ChargebackViewController: UIViewController, ChargebackDisplayLogic
     
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var btnBlockCard: UIButton!
+    @IBOutlet weak var btnContest: UIButton!
     @IBOutlet weak var lblBlockCard: UILabel!
     @IBOutlet weak var lblMerchantRecognized: UILabel!
     @IBOutlet weak var lblCardInPossession: UILabel!
@@ -128,7 +129,8 @@ class ChargebackViewController: UIViewController, ChargebackDisplayLogic
     
     func displayData(viewModel: Chargeback.Data.ViewModel) {
         lblTitle.text = viewModel.title.uppercased()
-        txtCommentView.attributedText = viewModel.hint.data(using: .utf8)?.attributedString
+        txtCommentView.attributedText = viewModel.hint.attributedStringFromHTML(fontSize: 17)
+        txtCommentView.textColor = ThemeHandler.hintColor()
         commentPlaceholder = txtCommentView.attributedText
         lblBlockCard.text = viewModel.autoblock ? strings.cardBlockedMessage() : strings.cardUnblockedMessage()
         btnBlockCard.isSelected = viewModel.autoblock
@@ -167,10 +169,14 @@ extension ChargebackViewController: UITextViewDelegate {
     }
     
     func textViewDidEndEditing(_ textView: UITextView) {
-        if textView.text.isEmpty {
+        if textView.text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
             textView.attributedText = commentPlaceholder
             textView.textColor = ThemeHandler.hintColor()
         }
         view.removeGestureRecognizer(tapToDismissKeyboard)
+    }
+    
+    func textViewDidChange(_ textView: UITextView) {
+        btnContest.isEnabled = !textView.text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
     }
 }
