@@ -20,7 +20,7 @@ struct ThemeHandler {
     static func disabledGrayColor() -> UIColor { return UIColor(hex: 0xcccccc) }
     static func enabledPurpleColor()-> UIColor { return UIColor(hex: 0x6e2b77) }
     
-    static func mainRegularFont(size: CGFloat) -> UIFont {
+    static func mainRegularFont(size: CGFloat = 17) -> UIFont {
         return UIFont(name: "AvenirNext-Regular", size: size) ?? UIFont.systemFont(ofSize:size)
     }
     

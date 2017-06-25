@@ -24,7 +24,7 @@ class DefaultButton: UIButton {
     private func setupLayout() {
         let color = isColored ? ThemeHandler.purpleColor() : ThemeHandler.closeGrayColor()
         setTitleColor(color, for: .normal)
-        setTitleColor(ThemeHandler.disabledGrayColor(), for: .highlighted)
+        setTitleColor(ThemeHandler.disabledGrayColor(), for: .disabled)
         titleLabel?.font = ThemeHandler.mainBoldFont(size: 18)
         setTitle(titleLabel?.text?.uppercased(), for: .normal)
     }

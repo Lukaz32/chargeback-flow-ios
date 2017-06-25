@@ -14,10 +14,10 @@ extension API {
     
     public struct Chargeback {
         
-        public static func getData(completion: @escaping ReturnChargebackOutput) {
+        public static func getData(showSpinner: Bool = true, completion: @escaping ReturnChargebackOutput) {
             
             let url = URLComposer(path: [.chargeback])
-            API.showSpinner()
+            if showSpinner { API.showSpinner() }
             
             Alamofire.request(url, method: .get, encoding: JSONEncoding.default).responseJSON { response in
                 API.hideSpinner()
@@ -28,11 +28,11 @@ extension API {
             }
         }
         
-        public static func performChargebackOperation(input: ChargebackInput, completion: @escaping ReturnBoolOutput) {
+        public static func performChargebackOperation(input: ChargebackInput, showSpinner: Bool = true, completion: @escaping ReturnBoolOutput) {
             
             let url = URLComposer(path: [.chargeback])
             let parameters = input.toDict
-            API.showSpinner()
+            if showSpinner { API.showSpinner() }
             
             Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default).responseJSON { response in
                 API.hideSpinner()
