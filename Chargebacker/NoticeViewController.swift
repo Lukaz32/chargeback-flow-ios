@@ -80,7 +80,7 @@ class NoticeViewController: UIViewController, NoticeDisplayLogic {
     
     func displayData(viewModel: Notice.Data.ViewModel) {
         lblTitle.text = viewModel.title
-        lblDescription.attributedText = viewModel.description.attributedStringFromHTML(fontSize: 17)
+        lblDescription.attributedText = viewModel.description.attributedStringFromHTML(fontSize: 16)
         btnPrimaryAction.setTitle(viewModel.primaryAction.title.uppercased(), for: .normal)
         btnSecondaryAction.setTitle(viewModel.secondaryAction.title.uppercased(), for: .normal)
     }
