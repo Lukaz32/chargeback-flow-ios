@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tnY-yw-XCc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tnY-yw-XCc">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,7 +11,7 @@
         <!--Notice View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="NoticeViewController" customModule="Chargebacker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NoticeViewController" id="BYZ-38-t0r" customClass="NoticeViewController" customModule="Chargebacker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -85,7 +85,7 @@
         <!--Chargeback View Controller-->
         <scene sceneID="jfD-Zh-a8L">
             <objects>
-                <viewController id="ew8-pN-A5D" customClass="ChargebackViewController" customModule="Chargebacker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChargebackViewController" id="ew8-pN-A5D" customClass="ChargebackViewController" customModule="Chargebacker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ABG-Gy-emq"/>
                         <viewControllerLayoutGuide type="bottom" id="J8r-lR-wZp"/>

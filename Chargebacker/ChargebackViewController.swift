@@ -58,11 +58,6 @@ class ChargebackViewController: UIViewController, ChargebackDisplayLogic
         setup()
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        lblBlockCard.textColor = ThemeHandler.redColor()
-    }
-    
     // MARK: Setup
     
     private func setup() {

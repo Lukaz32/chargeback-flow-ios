@@ -32,7 +32,6 @@ class ChargebackInteractor: ChargebackBusinessLogic
     }
     
     func tappedContest(request: Chargeback.Data.Request) {
-        
         API.Chargeback.performChargebackOperation(input: request.input) { [weak self] succeeded, errorMessage in
             self?.presenter?.handleContest(succeeded: succeeded, errorMessage: errorMessage)
         }

@@ -243,11 +243,23 @@ struct _R: Rswift.Validatable {
       typealias InitialController = UIKit.UINavigationController
       
       let bundle = R.hostingBundle
+      let chargebackViewController = StoryboardViewControllerResource<ChargebackViewController>(identifier: "ChargebackViewController")
       let name = "Main"
+      let noticeViewController = StoryboardViewControllerResource<NoticeViewController>(identifier: "NoticeViewController")
+      
+      func chargebackViewController(_: Void = ()) -> ChargebackViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: chargebackViewController)
+      }
+      
+      func noticeViewController(_: Void = ()) -> NoticeViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: noticeViewController)
+      }
       
       static func validate() throws {
         if UIKit.UIImage(named: "ic_chargeback_unlock") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_chargeback_unlock' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "ic_chargeback_lock") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ic_chargeback_lock' is used in storyboard 'Main', but couldn't be loaded.") }
+        if _R.storyboard.main().noticeViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'noticeViewController' could not be loaded from storyboard 'Main' as 'NoticeViewController'.") }
+        if _R.storyboard.main().chargebackViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'chargebackViewController' could not be loaded from storyboard 'Main' as 'ChargebackViewController'.") }
       }
       
       fileprivate init() {}
