@@ -81,6 +81,7 @@
 		A0A729851F00178A000156C1 /* ChargebackOutput.json in Resources */ = {isa = PBXBuildFile; fileRef = A0A729841F00178A000156C1 /* ChargebackOutput.json */; };
 		A0A729871F00649F000156C1 /* NoticeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729861F00649F000156C1 /* NoticeWorker.swift */; };
 		A0A729881F00649F000156C1 /* NoticeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A729861F00649F000156C1 /* NoticeWorker.swift */; };
+		A0DB63421F01487100ED0D70 /* GeneralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DB63411F01487100ED0D70 /* GeneralTests.swift */; };
 		A0EBA7B81EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
 		A0EBA7B91EFEBA30000F7BA6 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */; };
 		A0EBA7E01EFEC2EF000F7BA6 /* NoticeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */; };
@@ -156,6 +157,7 @@
 		A0A729821F00165C000156C1 /* ChargebackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargebackTests.swift; sourceTree = "<group>"; };
 		A0A729841F00178A000156C1 /* ChargebackOutput.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChargebackOutput.json; sourceTree = "<group>"; };
 		A0A729861F00649F000156C1 /* NoticeWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeWorker.swift; sourceTree = "<group>"; };
+		A0DB63411F01487100ED0D70 /* GeneralTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralTests.swift; sourceTree = "<group>"; };
 		A0EBA7B71EFEBA30000F7BA6 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		A0EBA7DA1EFEC2EF000F7BA6 /* NoticeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeInteractor.swift; sourceTree = "<group>"; };
 		A0EBA7DB1EFEC2EF000F7BA6 /* NoticeModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeModels.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				A0A729761EFF60ED000156C1 /* NoticeTests.swift */,
 				A0A729821F00165C000156C1 /* ChargebackTests.swift */,
 				A0A7297C1F00077B000156C1 /* APITests.swift */,
+				A0DB63411F01487100ED0D70 /* GeneralTests.swift */,
 				A0A7297E1F000D4D000156C1 /* Mocker.swift */,
 				A001B1091EFB29E500167FE9 /* Info.plist */,
 			);
@@ -686,6 +689,7 @@
 				A083D54E1EFECA50004967A6 /* API.swift in Sources */,
 				A0A7297A1EFF7332000156C1 /* StringExtensions.swift in Sources */,
 				A023FFE21EFEF022008F3354 /* ChargebackModels.swift in Sources */,
+				A0DB63421F01487100ED0D70 /* GeneralTests.swift in Sources */,
 				A083D54C1EFECA22004967A6 /* R.generated.swift in Sources */,
 				A0784F091EFF3AA100AE4FB8 /* DefaultLabel.swift in Sources */,
 				A0784F0D1EFF43D000AE4FB8 /* DefaultButton.swift in Sources */,

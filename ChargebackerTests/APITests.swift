@@ -16,7 +16,7 @@ class APITests: QuickSpec {
     
     override func spec() {
         
-        let defaultTimeout: TimeInterval = 3
+        let defaultTimeout: TimeInterval = 5
         let defaultPollInterval: TimeInterval = 0.5
         
         describe("Notice Data Fetching") {
