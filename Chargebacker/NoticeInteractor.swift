@@ -11,6 +11,7 @@
 //
 
 import UIKit
+import ALLoadingView
 
 protocol NoticeBusinessLogic
 {
@@ -22,7 +23,9 @@ class NoticeInteractor: NoticeBusinessLogic {
     var presenter: NoticePresentationLogic?
     
     func fetchData() {
+        ALLoadingView.show()
         API.Notice.getData { [weak self] output, errorMessage in
+            ALLoadingView.hide()
             guard let output = output else {
                 GeneralAlerter.displayErrorAlert(message: errorMessage)
                 return
@@ -33,7 +36,9 @@ class NoticeInteractor: NoticeBusinessLogic {
     }
     
     func handlePrimaryAction() {
+        ALLoadingView.show()
         API.Chargeback.getData { [weak self] output, errorMessage in
+            ALLoadingView.hide()
             guard let output = output else {
                 GeneralAlerter.displayErrorAlert(message: errorMessage)
                 return

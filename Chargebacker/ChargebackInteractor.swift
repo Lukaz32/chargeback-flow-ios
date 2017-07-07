@@ -11,6 +11,7 @@
 //
 
 import UIKit
+import ALLoadingView
 
 protocol ChargebackBusinessLogic {
     func setCard(blocked: Bool, showSpinner: Bool)
@@ -22,7 +23,9 @@ class ChargebackInteractor: ChargebackBusinessLogic
     var presenter: ChargebackPresentationLogic?
     
     func setCard(blocked: Bool, showSpinner: Bool)  {
+        if showSpinner { ALLoadingView.show() }
         API.Card.setCard(blocked: blocked) { [weak self] succeeded, errorMessage in
+            ALLoadingView.hide()
             guard succeeded else {
                 GeneralAlerter.displayErrorAlert(message: errorMessage)
                 return
@@ -32,7 +35,9 @@ class ChargebackInteractor: ChargebackBusinessLogic
     }
     
     func tappedContest(request: Chargeback.Data.Request) {
+        ALLoadingView.show()
         API.Chargeback.performChargebackOperation(input: request.input) { [weak self] succeeded, errorMessage in
+            ALLoadingView.hide()
             self?.presenter?.handleContest(succeeded: succeeded, errorMessage: errorMessage)
         }
     }

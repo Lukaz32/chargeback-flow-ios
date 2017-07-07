@@ -9,7 +9,6 @@
 import Foundation
 import Alamofire
 import SwiftyJSON
-import ALLoadingView
 
 fileprivate let strings = R.string.api.self
 
@@ -47,14 +46,6 @@ public struct API {
             }
             completion(true, nil)
         }
-    }
-    
-    static func showSpinner() {
-        ALLoadingView.manager.showLoadingView(ofType: .basic, windowMode: .fullscreen)
-    }
-    
-    static func hideSpinner() {
-        ALLoadingView.manager.hideLoadingView()
     }
 }
 
