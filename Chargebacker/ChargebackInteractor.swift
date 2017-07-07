@@ -22,7 +22,7 @@ class ChargebackInteractor: ChargebackBusinessLogic
     var presenter: ChargebackPresentationLogic?
     
     func setCard(blocked: Bool, showSpinner: Bool)  {
-        API.Card.setCard(blocked: blocked, showSpinner: showSpinner) { [weak self] succeeded, errorMessage in
+        API.Card.setCard(blocked: blocked) { [weak self] succeeded, errorMessage in
             guard succeeded else {
                 GeneralAlerter.displayErrorAlert(message: errorMessage)
                 return

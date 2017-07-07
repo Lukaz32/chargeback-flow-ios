@@ -9,10 +9,10 @@
 import Foundation
 import SwiftyJSON
 
-public class BaseOutput {
+public class BaseOutput: Output {
     public let links: [Link]
     
-    public init(json: JSON) {
+    public required init(json: JSON) {
         links = json["links"].map { Link(key: $0, json: $1) }
     }
     

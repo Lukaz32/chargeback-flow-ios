@@ -16,7 +16,7 @@ public class ChargebackOutput: BaseOutput {
     public let autoblock: Bool
     public let reasonDetails: [ReasonDetail]
     
-    public override init(json: JSON) {
+    public required init(json: JSON) {
         commentHint = json["comment_hint"].stringValue
         id = json["id"].stringValue
         title = json["title"].stringValue

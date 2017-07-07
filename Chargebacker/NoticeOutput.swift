@@ -20,7 +20,7 @@ public class NoticeOutput: BaseOutput {
         let action: String
     }
     
-    public override init(json: JSON) {
+    public required init(json: JSON) {
         title = json["title"].stringValue
         description = json["description"].stringValue
         primaryAction = Action(json: json["primary_action"])

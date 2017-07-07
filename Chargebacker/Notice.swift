@@ -14,18 +14,11 @@ extension API {
     
     public struct Notice {
         
-        public static func getData(showSpinner: Bool = true, completion: @escaping ReturnNoticeOutput) {
+        public static func getData(completion: @escaping ReturnNoticeOutput) {
             
             let url = URLComposer(path: [.notice])
-            if showSpinner { API.showSpinner() }
             
-            Alamofire.request(url, method: .get, encoding: JSONEncoding.default).responseJSON { response in
-               API.hideSpinner()
-                guard let data = response.data, response.response?.statusCode == 200 else {
-                    return completion(nil, ErrorHandler.errorMessageFromResponse(response))
-                }
-                completion(NoticeOutput(json: JSON(data)), nil)
-            }
+            API.requestForObject(url: url, method: .get, completion: completion)
         }
     }
 }

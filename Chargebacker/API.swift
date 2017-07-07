@@ -31,6 +31,24 @@ public struct API {
         }
     }
     
+    internal static func requestForObject<T: Output>(url: URLComposer, method: HTTPMethod, parameters: [String: Any]? = nil, completion: @escaping (T?, String?) -> Void) {
+        Alamofire.request(url, method: method, parameters: parameters, encoding: JSONEncoding.default).responseJSON { response in
+            guard let data = response.data, response.response?.statusCode == 200 else {
+                return completion(nil, ErrorHandler.errorMessageFromResponse(response))
+            }
+            completion(T(json: JSON(data)), nil)
+        }
+    }
+    
+    internal static func requestForBool(url: URLComposer, method: HTTPMethod, parameters: [String: Any]? = nil, completion: @escaping ReturnBoolOutput) {
+        Alamofire.request(url, method: method, parameters: parameters, encoding: JSONEncoding.default).responseJSON { response in
+            guard response.response?.statusCode == 200 else {
+                return completion(false, ErrorHandler.errorMessageFromResponse(response))
+            }
+            completion(true, nil)
+        }
+    }
+    
     static func showSpinner() {
         ALLoadingView.manager.showLoadingView(ofType: .basic, windowMode: .fullscreen)
     }
@@ -38,4 +56,8 @@ public struct API {
     static func hideSpinner() {
         ALLoadingView.manager.hideLoadingView()
     }
+}
+
+internal protocol Output {
+    init(json: JSON)
 }
