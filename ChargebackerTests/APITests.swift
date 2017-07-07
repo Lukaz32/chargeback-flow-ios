@@ -22,7 +22,7 @@ class APITests: QuickSpec {
         describe("Notice Data Fetching") {
             it("Should retrieve an output from the webservice") {
                 var testOutput: NoticeOutput?
-                API.Notice.getData(showSpinner: false, completion: { output, errorMessage in
+                API.Notice.getData(completion: { output, errorMessage in
                     testOutput = output
                 })
                 expect(testOutput).toEventuallyNot(beNil(), timeout: defaultTimeout, pollInterval: defaultPollInterval)
@@ -32,7 +32,7 @@ class APITests: QuickSpec {
         describe("Chargeback Data Fetching") {
             it("Should retrieve an output from the webservice") {
                 var testOutput: ChargebackOutput?
-                API.Chargeback.getData(showSpinner: false, completion: { output, errorMessage in
+                API.Chargeback.getData(completion: { output, errorMessage in
                     testOutput = output
                 })
                 expect(testOutput).toEventuallyNot(beNil(), timeout: defaultTimeout, pollInterval: defaultPollInterval)
@@ -42,7 +42,7 @@ class APITests: QuickSpec {
         describe("Card Blocking Request") {
             it("Should receive a 200 status code from the webservice") {
                 var success = false
-                API.Card.setCard(blocked: true, showSpinner: false, completion: { succeeded, _ in
+                API.Card.setCard(blocked: true, completion: { succeeded, _ in
                     success = succeeded
                 })
                 expect(success).toEventuallyNot(beTrue(), timeout: defaultTimeout, pollInterval: defaultPollInterval)
@@ -52,7 +52,7 @@ class APITests: QuickSpec {
         describe("Card Unblocking Request") {
             it("Should receive a 200 status code from the webservice") {
                 var success = false
-                API.Card.setCard(blocked: false, showSpinner: false, completion: { succeeded, _ in
+                API.Card.setCard(blocked: false, completion: { succeeded, _ in
                     success = succeeded
                 })
                 expect(success).toEventuallyNot(beTrue(), timeout: defaultTimeout, pollInterval: defaultPollInterval)
@@ -64,7 +64,7 @@ class APITests: QuickSpec {
                 var success = false
                 let data = Mocker.mockedJsonData(for: "ChargebackInput")
                 let input = ChargebackInput(json: JSON(data))
-                API.Chargeback.performChargebackOperation(input: input, showSpinner: false, completion: { succeeded, _ in
+                API.Chargeback.performChargebackOperation(input: input, completion: { succeeded, _ in
                     success = succeeded
                 })
                 expect(success).toEventuallyNot(beTrue(), timeout: defaultTimeout, pollInterval: defaultPollInterval)

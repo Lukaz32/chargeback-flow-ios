@@ -24,9 +24,7 @@ extension API {
         public static func performChargebackOperation(input: ChargebackInput, completion: @escaping ReturnBoolOutput) {
             
             let url = URLComposer(path: [.chargeback])
-            let parameters = input.toDict
-            
-            API.requestForBool(url: url, method: .post, parameters: parameters, completion: completion)
+            API.requestForBool(url: url, method: .post, parameters: input, completion: completion)
         }
     }
 }

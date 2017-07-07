@@ -30,8 +30,8 @@ public struct API {
         }
     }
     
-    internal static func requestForObject<T: Output>(url: URLComposer, method: HTTPMethod, parameters: [String: Any]? = nil, completion: @escaping (T?, String?) -> Void) {
-        Alamofire.request(url, method: method, parameters: parameters, encoding: JSONEncoding.default).responseJSON { response in
+    internal static func requestForObject<T: Output>(url: URLComposer, method: HTTPMethod, parameters: Input? = nil, completion: @escaping (T?, String?) -> Void) {
+        Alamofire.request(url, method: method, parameters: parameters?.toDict, encoding: JSONEncoding.default).responseJSON { response in
             guard let data = response.data, response.response?.statusCode == 200 else {
                 return completion(nil, ErrorHandler.errorMessageFromResponse(response))
             }
@@ -39,8 +39,8 @@ public struct API {
         }
     }
     
-    internal static func requestForBool(url: URLComposer, method: HTTPMethod, parameters: [String: Any]? = nil, completion: @escaping ReturnBoolOutput) {
-        Alamofire.request(url, method: method, parameters: parameters, encoding: JSONEncoding.default).responseJSON { response in
+    internal static func requestForBool(url: URLComposer, method: HTTPMethod, parameters: Input? = nil, completion: @escaping ReturnBoolOutput) {
+        Alamofire.request(url, method: method, parameters: parameters?.toDict, encoding: JSONEncoding.default).responseJSON { response in
             guard response.response?.statusCode == 200 else {
                 return completion(false, ErrorHandler.errorMessageFromResponse(response))
             }
@@ -51,4 +51,8 @@ public struct API {
 
 internal protocol Output {
     init(json: JSON)
+}
+
+internal protocol Input {
+    var toDict: [String: Any] {get}
 }

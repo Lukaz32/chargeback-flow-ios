@@ -12,18 +12,20 @@ import SwiftyJSON
 public struct ChargebackInput {
     public let comment: String
     public let reasonDetails: [ReasonDetail]
-    
-    public var toDict: [String: Any] {
-        var dict = [String: Any]()
-        dict["comment"] = comment
-        dict["reason_details"] = reasonDetails.map { $0.toDict }
-        return dict
-    }
 }
 
 extension ChargebackInput {
     public init(json: JSON) {
         comment = json["comment"].stringValue
         reasonDetails = json["reason_details"].map { ReasonDetail(json: $1) }
+    }
+}
+
+extension ChargebackInput: Input {
+    public var toDict: [String: Any] {
+        var dict = [String: Any]()
+        dict["comment"] = comment
+        dict["reason_details"] = reasonDetails.map { $0.toDict }
+        return dict
     }
 }
